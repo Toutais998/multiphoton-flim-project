@@ -1,0 +1,303 @@
+\chapter{其他辅助实验}\label{Chap:6}
+
+\section{超快激光表征与自相干仪搭建}\label{6.1}
+
+在开展脉冲宽度表征之前，首先需要对待测激光的平均输出功率以及脉冲稳定性(pulse-to-pulse stability)进行标定，测试结果如图~\ref{fig41-42} 所示。该步骤对于后续自相干测量尤为关键，因为本文所采用的探测机制基于双光子吸收(Two-Photon Absorption, TPA)效应，而 TPA 属于典型的非线性光学过程，其信号强度与入射光强的平方成正比，即
+
+\begin{equation}
+    I_{\mathrm{TPA}} \propto I^2
+\end{equation}
+
+这意味着一旦激光器相邻脉冲之间存在明显的能量波动，非线性探测过程会进一步放大这种波动，从而在自相干信号中引入较大的幅值噪声，最终降低脉冲宽度测量的准确性与重复性。因此，稳定的输出功率和良好的脉冲间一致性是获得高信噪比自相干曲线的前提条件。
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/Fig41.pdf}
+        \caption{}
+        \label{fig41}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/Fig42.png}
+        \caption{}
+        \label{fig42}
+    \end{subfigure}
+    \bicaption{待测激光的平均功率与脉冲稳定性标定结果。(a) 待测激光平均功率标定结果；(b) 待测激光脉冲稳定性标定结果}{Calibration results of the average power and pulse stability of the laser under test. (a) Average-power calibration; (b) pulse-stability characterization}
+    \label{fig41-42}
+\end{figure}
+
+\subsection{干涉自相关的数学模型与峰背比}\label{6.1.1}
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/Fig42.5.pdf}
+        \caption{}
+        \label{fig42.5}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/Fig42.6.pdf}
+        \caption{}
+        \label{fig42.6}
+    \end{subfigure}
+    \bicaption{自相干干涉信号特征及啁啾脉冲分析示意图。(a) 强度自相关仪中的干涉信号峰值背景比；(b) 严重啁啾飞秒脉冲的干涉自相关曲线\cite{thorlabs}}{Characteristic interferometric autocorrelation signals and analysis of chirped pulses. (a) Peak-to-background ratio of the interference signal in an intensity autocorrelator; (b) interferometric autocorrelation trace of a strongly chirped femtosecond pulse\cite{thorlabs}}
+    \label{fig42.56}
+\end{figure}
+
+在基于双光子吸收的干涉自相关测量中，光电二极管(Photodiode, PD)输出的光电流与入射到探测器表面的总光强平方成正比。由于探测器的响应时间远大于飞秒脉冲本身的持续时间，实验系统实际记录的是光电流的时间积分结果。因此，干涉自相关信号强度 $I_{AC}(\tau)$ 可表示为
+\begin{equation}
+    I_{AC}(\tau)=\int_{-\infty}^{\infty}|[E(t)+E(t-\tau)]^{2}|^{2}dt
+\end{equation}
+
+其中，$E(t)$ 为脉冲复电场振幅，$\tau$ 为移动臂引入的时间延迟。将上式展开后，可得
+\begin{align}
+    I_{AC}(\tau)=&\int_{-\infty}^{\infty}[I(t)^{2}+I(t-\tau)^{2}]dt\\ \notag
+    &+4\int_{-\infty}^{\infty}[I(t)+I(t-\tau)Re\{E(t)E^{*}(t-\tau)\}]dt\\ \notag
+    &+2\int_{-\infty}^{\infty}Re\{E(t)^{2}E^{*}(t-\tau)^{2}\}dt\\ \notag
+    &+4\int_{-\infty}^{\infty}I(t)I(t-\tau)dt
+\end{align}
+
+上述表达式中包含四类主要成分：
+\begin{enumerate}
+    \item 第一项对应恒定背景信号；
+    \item 第二项为基频光的干涉项，在自相关曲线中心区域形成与载波频率对应的快速干涉条纹；
+    \item 第三项为二次谐波分量对应的干涉项；
+    \item 第四项为纯强度自相关(intensity autocorrelation)项，反映脉冲包络的重叠程度。
+\end{enumerate}
+
+图~\ref{fig42.56}(\subref{fig42.5}) 给出了理想干涉自相关信号的典型特征。在理想相位匹配以及分光均衡的条件下，当 $\tau=0$ 时，两束脉冲在时间上完全重合，干涉信号达到最大值；而当 $\tau \rightarrow \infty$ 时，两束脉冲彼此分离，仅保留恒定背景。此时自相关曲线的峰值与背景之比理论上为 $8:1$。实际实验中，由于分光比误差、光束准直偏差以及器件装调误差等因素的影响，该峰背比通常略低于理论值，一般可达到约 $7:1$。因此，峰背比不仅是判断系统干涉质量的重要指标，也可作为评价光路重合程度与装调精度的依据。
+
+\subsection{脉冲宽度的解算(去相关因子)}\label{6.1.2}
+
+由自相关曲线直接测得的半高全宽(Full Width at Half Maximum, FWHM)，记为 $\tau_{ac}$，并不等于脉冲真实宽度 $\tau_{pulse}$。要由自相关宽度反推出实际脉冲宽度，还需要结合脉冲的包络形状引入相应的去相关因子。对于干涉自相关曲线的上包络，其换算关系通常为：
+
+若脉冲包络近似为高斯型(Gaussian)，则有
+\[
+\tau_{pulse}=\tau_{ac}/1.7
+\]
+
+若脉冲包络近似为双曲正割平方型($\mathrm{sech}^2$)，则有
+\[
+\tau_{pulse}=\tau_{ac}/1.9
+\]
+
+因此，在利用自相关法计算脉冲宽度时，必须首先对脉冲形状作出合理假设，否则将给最终结果带来系统性误差。
+
+\subsection{脉冲啁啾(Chirp)现象的识别与分析}\label{6.1.3}
+
+在超快光学系统中，飞秒脉冲在光学介质中传播时不可避免地会受到群速度色散以及更高阶色散的影响，从而导致脉冲时域展宽并产生啁啾(chirp)。因此，在评估脉冲压缩系统性能时，干涉自相关仪不仅可用于测量脉冲宽度，还可作为判断残余啁啾的重要诊断手段。
+
+当脉冲具有明显啁啾时，其时间持续宽度会显著增大，而相干长度相对较短。此时在干涉自相关曲线上，常出现``宽底座叠加窄尖峰''的特征，如图~\ref{fig42.56}(\subref{fig42.6}) 所示。具体而言，在延迟时间较大的区域，两束脉冲虽然在时间上仍可能存在部分重叠，但由于瞬时频率失配，相位相关性显著下降，干涉条纹逐渐消失，曲线两侧仅保留较宽的强度自相关包络；而在 $\tau \approx 0$ 的中心区域，由于两束光在时间与相位上仍保持较强相干性，因此会形成一个窄而尖锐的干涉峰。
+
+图~\ref{fig42.56}(\subref{fig42.6}) 所示的这种``宽底座 $+$ 窄尖峰''结构正是严重啁啾脉冲的典型表征。该结果说明，若直接以整条干涉自相关曲线的半高全宽来估算脉冲宽度，往往会导致对实际脉冲时宽的误判。针对这类信号，更合理的做法是先通过频域滤波或包络提取方法去除高频干涉条纹，仅保留强度自相关包络，再结合去相关因子对脉冲宽度进行计算。由此可见，干涉自相关曲线不仅反映脉冲时宽信息，也能够直观揭示脉冲是否存在显著残余啁啾。
+
+\subsection{自相干仪搭建}\label{6.1.4}
+
+为实现对超快激光脉冲宽度的准确表征，本文设计并搭建了一套基于迈克尔逊干涉仪结构的自相干测试系统。该系统以光电二极管作为非线性探测元件，相较于传统``非线性晶体 $+$  光电倍增管 $+$  滤光片''的方案，具有结构更紧凑、调试更简便、成本更低等优点。
+
+其基本工作过程如下：待测红外飞秒脉冲入射至迈克尔逊干涉仪后，经分光平片分为两束振幅近似相等的光束。其中一路经固定臂反射返回，另一路经由高精度位移台控制的移动臂反射返回。通过调节移动臂位移 $\Delta x$，可在两束光之间引入可控的时间延迟
+\[
+\tau = \frac{2\Delta x}{c}
+\]
+
+其中 $c$ 为真空中的光速。随后两束光重新合束，并被共同聚焦到光电二极管表面，在探测器中通过双光子吸收过程产生与时间延迟相关的非线性响应信号。
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Fig/Fig39.1-1.pdf}
+        \caption{}
+        \label{fig39.1-1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Fig/Fig39.1-2.pdf}
+        \caption{}
+        \label{fig39.1-2}
+    \end{subfigure}
+    \bicaption{基于迈克尔逊干涉原理设计的两版自相干仪光路结构。(a) 第一版自相干仪；(b) 第二版自相干仪}{Two versions of the autocorrelator optical layout designed based on the Michelson interferometer principle. (a) Mark 1; (b) Mark 2}
+    \label{fig39.1}
+\end{figure}
+
+如图~\ref{fig39.1} 所示，本文先后设计并搭建了两版自相干仪。图~\ref{fig39.1}(\subref{fig39.1-1}) 所示为第一版方案，其基本结构采用常规迈克尔逊干涉仪。为了便于观察两束回光的重合情况，该方案通过对其中一路反射镜施加微小倾角，使参考光在空间上形成可辨识的偏移，并借助十字叉丝辅助完成光路校准。该方案能够实现基础的干涉测量，但由于两束光在聚焦位置存在一定交叉角，难以在探测面上实现严格共线重合，从而会降低干涉对比度；同时，反射镜倾斜还可能引入额外的偏振态变化，进一步影响相干叠加效果。
+
+为解决上述问题，本文进一步设计了第二版自相干仪，如图~\ref{fig39.1}(\subref{fig39.1-2}) 所示。该方案采用双分光平片结构，使两束光在整个传播过程中均保持标准反射几何关系，从而避免了因镜面倾斜带来的空间夹角和偏振扰动。与第一版相比，第二版方案能够更好地保证两束光在合束后的空间共线性与偏振一致性，因此可获得更高的干涉对比度和更稳定的自相关信号。这一改进对提升系统测量精度和重复性具有重要意义。
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/Fig39.png}
+        \caption{}
+        \label{fig39}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/Fig40.png}
+        \caption{}
+        \label{fig40}
+    \end{subfigure}
+    \bicaption{DIY 自相干仪与商用自相干仪测量结果对比。(a) DIY 自相干仪测得的干涉自相关曲线；(b) APE PulseCheck NX 测得的脉冲宽度结果}{Comparison between measurements from the DIY autocorrelator and a commercial autocorrelator. (a) Interferometric autocorrelation trace measured with the DIY setup; (b) pulse-width result measured with the APE PulseCheck NX}
+    \label{fig39-40}
+\end{figure}
+
+在探测器的选择上，本文选用了对紫外至可见波段具有较高响应灵敏度的宽禁带半导体探测器。例如，磷镓(GaP) 探测器的典型响应范围约为 $150~\mathrm{nm}\sim550~\mathrm{nm}$，磷砷化镓(GaAsP) 探测器的响应范围约为 $300~\mathrm{nm}\sim680~\mathrm{nm}$。对于波长约为 $1030~\mathrm{nm}$ 的红外基频飞秒脉冲，其单光子能量低于探测器材料的禁带宽度，因此探测器对该基频光几乎不产生线性响应，这使得系统能够在硬件层面天然抑制基频红外信号的直接干扰。
+
+然而，当两束飞秒脉冲在探测器表面于时间上充分重合时，其瞬时峰值功率显著提高，可在半导体材料内部诱导双光子吸收过程，并产生与二次谐波等效波长对应的光生电流信号。通过记录该非线性光电流随时间延迟变化的曲线，并结合脉冲包络模型及去相关因子，即可反演得到待测脉冲的实际宽度。
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Fig/Fig43.png}
+    \bicaption{放大后的自相干包络中出现的基频干扰信号}{Fundamental-frequency interference signal appearing in the magnified autocorrelation envelope}
+    \label{fig43}
+\end{figure}
+
+图~\ref{fig39-40} 给出了本文搭建的 DIY 自相干仪与商用 APE PulseCheck NX 仪器的测试结果对比。两者测得的自相关特征与脉冲宽度结果具有较好一致性，说明本文所搭建系统具备较高的测量可靠性，能够满足实验中对飞秒脉冲宽度表征的需求。
+
+需要指出的是，尽管理论上宽禁带半导体探测器不会对能量低于禁带宽度的基频红外光产生显著单光子响应，但在实际测量中，受热效应、暗电流以及器件非理想响应等因素影响，探测器仍可能对基频光产生一定的背景信号和周期性干扰。图~\ref{fig43} 展示了放大后的自相干包络信号，其中可以观察到明显的基频调制成分。当示波器时间分辨率调整至 $\mu$s 量级时，可以识别出约 $80~\mathrm{MHz}$ 的周期性干扰，该频率与激光器重复频率一致。针对该类干扰，通常可对原始信号进行傅里叶变换，在频域中抑制对应频率分量，从而有效滤除基频串扰，提高自相关包络提取与脉冲宽度反演的准确性。
+
+
+
+
+
+\section{基于双椭圆的均匀扩大扫描视场系统设计}\label{6.2}
+\subsection{传统扫描结构的局限性}\label{6.2.1}
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.65\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/Fig58.pdf}
+        \caption{}
+        \label{fig58}
+    \end{subfigure}
+
+    \vspace{0.5em}
+
+    \begin{subfigure}[b]{0.7\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/Fig60.pdf}
+        \caption{}
+        \label{fig60}
+    \end{subfigure}
+
+    \bicaption{扫描系统中的光程不等及其引起的视场畸变示意图。(a) 传统扫描结构中的光程不等与等光程面示意图；(b) 扫描光程不等导致的视场畸变(桶形畸变与枕形畸变)}{Schematic of unequal optical paths in scanning systems and the resulting field distortion. (a) Unequal optical paths and iso-optical-path surface in a conventional scanning structure; (b) field distortion caused by unequal scan paths, including barrel and pincushion distortion}
+    \label{fig58-59}
+\end{figure}
+
+在传统光学扫描系统中，例如基于振镜或多面体扫描镜实现的扫描结构，扫描光束在空间中通常沿扇形轨迹偏转。由于不同扫描角对应的光线路径长度并不相同，系统中心视场与边缘视场之间往往存在显著的光程差。这种由扫描几何关系引起的光程不等，会进一步破坏理想成像条件，导致扫描视场中的几何映射关系发生偏离，最终表现为不同程度的视场畸变，如图~\ref{fig58-59}(\subref{fig58}) 所示。
+
+相较于理想的线性扫描结果，实际系统中常见的畸变形式主要包括桶形畸变和枕形畸变，如图~\ref{fig58-59}(\subref{fig60}) 所示。前者表现为图像边缘向外鼓出，后者则表现为图像边缘向内收缩。无论是哪一种畸变，本质上都反映了扫描角、成像位置与实际光程之间的不一致。这种非理想效应不仅会降低边缘区域的成像质量，还会对空间定位精度、扫描均匀性以及后续图像重建带来不利影响。因此，对于大视场、高精度的扫描成像系统而言，如何在扩大扫描范围的同时保证各扫描位置的等效光程一致，是系统设计中需要重点解决的问题。
+
+
+\subsection{椭圆等光程扫描原理}\label{6.2.2}
+
+为减小传统扫描结构中由光程不等引起的视场畸变，本文引入了基于椭圆几何光学特性的等光程扫描方案。椭圆作为一种具有特殊反射性质的二次曲线，其最重要的光学特征之一在于：从一个焦点出发并经椭圆反射面的任意光线，最终均会汇聚到另一个焦点，且从一个焦点经椭圆面到另一焦点的总光程保持恒定。正是这一性质，为实现大视场下的等光程扫描提供了可行的理论基础。
+
+如图\ref{fig59}A 所示，设椭圆的两个焦点分别为 $F_1$ 与 $F_2$。当扫描器件置于其中一个焦点附近时，扫描光束以不同角度入射到椭圆反射面后，均可在另一焦点处形成对应的聚焦或等效扫描输出。由于各条反射光线满足相同的几何光程，这种结构天然具备抑制扫描光程差的优势。与传统平面或简单曲面反射结构相比，椭圆反射面不仅能够改善边缘视场的光程一致性，还有望在较大视场范围内维持更稳定的扫描映射关系。
+
+因此，从系统设计角度来看，采用椭圆反射面代替传统扫描反射结构，可以在不显著增加系统复杂度的前提下，对视场畸变进行主动校正，并为后续实现大视场、低畸变、均匀扫描的光学系统奠定基础。
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Fig/Fig59.pdf}
+    \bicaption{常规扫描结构与椭圆等光程扫描结构原理对比}{Comparison between conventional scanning structures and the elliptical equal-optical-path scanning concept}
+    \label{fig59}
+\end{figure}
+
+\subsection{单椭圆结构的扫描速率非均匀性与双椭圆结构设计}\label{6.2.3}
+
+基于上述等光程原理，本文首先构建了单椭圆扫描结构，并对其扫描性能进行了分析，如图\ref{fig61} 所示。研究结果表明，单椭圆结构虽然能够有效改善传统扫描系统中的光程不等问题，但其输出扫描角与输入扫描角之间并不满足严格的线性关系。换言之，当振镜以恒定角速度扫描时，经椭圆面反射后的出射光并不会保持恒定的扫描角速度，而是会随入射角变化呈现出明显的非均匀性。
+
+这种扫描速率的非均匀性将直接导致视场内不同位置的驻留时间发生变化。对于扫描成像系统而言，驻留时间的不一致不仅会引起局部采样密度变化，还可能导致图像亮度分布不均、边缘区域分辨率下降，甚至影响后续定量分析的准确性。因此，单椭圆结构虽然在光程均衡方面具有优势，但若要进一步应用于高精度、大视场成像系统，仍需对其扫描速率畸变进行额外补偿。
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Fig/Fig61.png}
+    \bicaption{单椭圆扫描结构及其入射/出射光扫描速率非均匀关系}{Single-ellipse scanning structure and the nonuniform relationship between input and output scan velocities}
+    \label{fig61}
+\end{figure}
+
+针对这一问题，本文进一步提出了一种双椭圆级联扫描结构。该方案并非简单地将两个椭圆反射面串联，而是利用第一级椭圆实现等光程传递，再借助第二级椭圆对第一级引入的扫描速率非线性进行补偿，从而同时兼顾``光程均衡''和``扫描匀速''两方面需求。双椭圆结构的系统功能框图如图~\ref{fig:fig49_52_62}(\subref{fig:fig49}) 所示，其核心思想是通过引入中间虚拟像面，使两个椭圆模块在几何映射上形成协同配合：第一级完成视场展开与初步映射，第二级则对扫描速率进行反向校正，最终获得更均匀的出射扫描特性。相应的光线追迹关系如图~\ref{fig:fig49_52_62}(\subref{fig:fig62}) 所示。
+
+从设计思路上看，这种双级联结构的优势在于：单一椭圆面只能解决一个主要矛盾，即光程均衡或角度映射优化中的某一部分，而双椭圆结构则通过自由度的增加，使系统能够在多个性能指标之间实现更优折中。也正因如此，双椭圆方案相比单椭圆方案更适用于需要兼顾大视场、低畸变与高扫描均匀性的应用场景。
+
+在完成双椭圆级联系统的总体构型设计之后，下一步关键问题在于确定两个椭圆反射面的参数匹配关系。由于第二级椭圆承担着对第一级扫描速率畸变进行补偿的功能，其离心率选取将直接影响最终系统的匀速扫描效果。因此，有必要对双椭圆结构的几何参数进行系统性优化，以获得最佳的速率补偿性能。
+
+为实现最佳的补偿效果，本文对两个椭圆的离心率参数进行了系统寻优。如图~\ref{fig:fig49_52_62}(\subref{fig:fig52}) 所示，在保持第一级椭圆离心率恒定的条件下，通过比较不同第二级椭圆离心率 $e_2$ 对扫描放大倍率 $k$ 稳定性的影响，可以观察到系统输出均匀性随参数变化呈现明显差异。当第二级椭圆离心率取 $e_{2\min}=0.3278$ 时，放大倍率波动的标准差 $\sigma$ 达到最小值，说明此时系统的扫描速率最接近理想匀速状态。该结果表明，通过合理匹配两个椭圆的几何参数，第二级椭圆能够在较大程度上抵消第一级椭圆所带来的非线性扫描效应。
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Fig/Fig49.png}
+        \caption{}
+        \label{fig:fig49}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Fig/Fig52.png}
+        \caption{}
+        \label{fig:fig52}
+    \end{subfigure}
+
+    \vspace{1em}
+
+    \begin{subfigure}[b]{0.9\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/Fig62.png}
+        \caption{}
+        \label{fig:fig62}
+    \end{subfigure}
+
+    \bicaption{双椭圆扫描系统功能框图、稳定性分析及扫描速率关系。(a) 双椭圆级联匀速扫描系统功能框图；(b) 不同 $e_2$ 下扫描速度放大倍率 $k$ 的稳定性分析；(c) 双椭圆扫描入射与出射光几何关系(子图A)及扫描速率关系(子图B)}{Functional block diagram, stability analysis, and scan-velocity relationship of the double-ellipse scanning system. (a) Functional block diagram of the cascaded uniform-speed double-ellipse scanner; (b) stability of the scan-velocity magnification factor $k$ under different $e_2$ values; (c) Geometric relationship between incident and outgoing light in double elliptical scanning (subgraph A) and scanning rate relationship (subgraph B)}
+    \label{fig:fig49_52_62}
+\end{figure}
+
+
+经过参数优化与结构校正后，双椭圆系统在全视场范围内表现出较高的扫描均匀性。最终结果如图\ref{fig:fig62}(B) 所示，在目标扫描范围内，出射角对时间的变化关系近似线性，其最大偏差仅为 $3.65\%$，均方根误差(RMSE)低至 $0.19$。这表明所提出的双椭圆级联系统已能够较好地逼近理想匀速扫描模型。相比传统扫描结构，该方法不仅改善了几何光程分布，还显著提升了扫描动态特性的一致性。
+
+此外，该双椭圆架构在实现匀速扫描的同时，还具备明显的扫描视场放大能力。例如，输入端振镜仅需提供约 $0.5^\circ$ 的微小扫描角，经双椭圆结构放大后，输出端即可获得约 $5^\circ$ 的有效扫描视场。这意味着该结构可在不显著增加前端扫描器件负担的前提下，实现更大的输出视场范围，从而提升系统在大范围成像、高速扫描以及紧凑型仪器设计中的应用潜力。换言之，双椭圆结构不仅是一种几何补偿方案，同时也是一种兼具视场扩展能力的扫描放大架构。
+
+
+\begin{figure}[htbp]
+    \centering
+
+    \begin{subfigure}[t]{0.65\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/Fig53.png}
+        \caption{}
+        \label{fig53}
+    \end{subfigure}
+
+    \vspace{1em}
+
+    \begin{subfigure}[t]{0.65\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Fig/Fig56.png}
+        \caption{}
+        \label{fig56}
+    \end{subfigure}
+
+    \bicaption{双椭圆扫描结构的三维模型及基础像差分析。(a) 双椭圆扫描结构的三维 Zemax 模型与光线追踪原理图；(b) 双椭圆扫描结构的基础像差分析}{Three-dimensional model and basic aberration analysis of the double-ellipse scanning structure. (a) Three-dimensional Zemax model and ray-tracing schematic; (b) basic aberration analysis}
+    \label{fig53-56}
+\end{figure}
+
+为了进一步验证双椭圆级联扫描结构在实际光学系统中的可实现性与成像性能，本文在 Ansys Zemax OpticStudio 中建立了该系统的三维实体模型，并开展了详细的光线追迹与像差分析。
+
+图~\ref{fig53-56}(\subref{fig53}) 展示了双椭圆扫描结构在 Zemax 中的正视图、斜视图及三维工作原理图。如图所示，入射光首先汇聚于第一级椭圆面的焦点附近，经第一级椭圆反射后在两个椭圆共享的中间焦点处形成虚拟像面，随后再由第二级椭圆反射并输出。该三维模型不仅直观再现了双焦点共轭和等光程传递机制，也验证了双椭圆级联系统在空间布局上的可实现性。与二维几何推导相比，三维仿真进一步说明该结构并非仅在理想平面模型中有效，而是具备向实际工程系统转化的可能。
+
+为了更全面地评估双椭圆结构的综合光学表现，本文进一步提取了系统的关键像差参数。图\ref{fig56} 给出了系统在不同分析维度下的结果，包括光路布局(A)、像场弯曲与 $F-\tan(\theta)$ 畸变曲线(B)、全视场点列图(C)以及塞德尔(Seidel)像差系数图(D)。这些结果从几何像差、视场映射及成像质量等多个方面，对系统性能进行了综合表征。
+
+从图\ref{fig56}-(B) 所示的畸变分析结果可以看出，该系统对扫描畸变具有较强的抑制能力，最大 $F-\tan(\theta)$ 畸变仅约为 $0.0026\%\sim0.0031\%$。对于高保真显微成像或精密扫描检测系统而言，这一指标已处于较优水平，说明双椭圆结构在大视场条件下仍能够维持较好的几何线性。与此同时，点列图结果表明，不同视场位置的成像点扩散分布均保持较好的集中性，说明系统在整个扫描范围内均具备较高的一致性。
+
+进一步结合图\ref{fig56}-(D) 的塞德尔像差分析可以发现，系统在球差、彗差、像散及场曲等主要低阶像差方面均得到了较好的控制。这说明双椭圆结构不仅在扫描轨迹和动态映射方面具备优势，同时在静态成像质量上也能够满足工程应用的要求。换言之，该结构并非以牺牲像质为代价换取大视场或匀速扫描，而是在扫描性能与像差控制之间实现了较好的平衡。
+
+综合理论分析、参数优化和 Zemax 仿真结果可以得出，所提出的双椭圆级联扫描结构能够有效解决传统扫描系统中存在的光程不等、视场畸变以及扫描速率非均匀等问题，并在扩大扫描视场的同时保持较高的扫描均匀性和较优的成像质量。因此，该方案为构建大视场、低畸变、高一致性的精密扫描成像系统提供了一种具有工程可行性的光学设计思路。

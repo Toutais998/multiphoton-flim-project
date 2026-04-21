@@ -1,0 +1,90 @@
+\contentsline {chapter}{\numberline {第1章\hspace {.3em}}绪论}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}背景介绍}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}活体成像探测手段简介}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}非光学探测手段}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}光学成像手段}{3}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}活体成像中的荧光探针}{4}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}文章组织结构}{5}{section.1.3}%
+\contentsline {chapter}{\numberline {第2章\hspace {.3em}}点扫描显微镜系统设计的理论基础}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}点扫描显微系统设计中的速度和分辨率问题}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}点扫描的单像素停留时间}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}点扫描成像的数字采样分辨率}{8}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}点扩散函数}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}线性点扩散函数与多光子有效激发体积}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}PSF 宽度指标与分辨率表述}{13}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}点扫描成像中的扫描结构}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}扫描策略：光束扫描与载物台扫描}{14}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}点扫描成像中的典型扫描方式}{15}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}Galvo–Galvo(双振镜正交扫描)}{15}{subsubsection.2.3.2.1}%
+\contentsline {subsubsection}{\numberline {2.3.2.2}Galvo–Resonant(振镜–共振扫描组合)}{15}{subsubsection.2.3.2.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.3}Galvo–Polygon(振镜–多面体扫描)}{16}{subsubsection.2.3.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.2.4}X2Y / XXY(三振镜扫描结构)}{16}{subsubsection.2.3.2.4}%
+\contentsline {subsubsection}{\numberline {2.3.2.5}MEMS 扫描(微机电扫描镜)}{16}{subsubsection.2.3.2.5}%
+\contentsline {subsubsection}{\numberline {2.3.2.6}其他常见扫描方式}{16}{subsubsection.2.3.2.6}%
+\contentsline {subsection}{\numberline {2.3.3}扫描方式选择的关键权衡}{16}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}显微系统的物镜参数与扫描视场设计}{17}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}无穷远校正物镜及实验系统所用物镜}{17}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}物镜后孔径、束径填充与有效数值孔径}{18}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}扫描角度与物方视场的映射关系}{19}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}扫描视场与分辨率的工程权衡}{20}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}自研物镜设计实例}{20}{subsection.2.4.5}%
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}激光扫描共聚焦荧光寿命显微镜搭建}{25}{chapter.3}%
+\contentsline {section}{\numberline {3.1}共聚焦显微镜成像原理}{25}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}宽场荧光显微镜与衍射极限}{25}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}激光扫描共聚焦显微镜的基本思想}{26}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}共聚焦显微镜的分辨率特性}{27}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}共焦小孔的作用及其影响}{28}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}激发光源的光谱选择与光束整形}{30}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}超连续谱激发光源的光谱选择与扩束}{30}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}532nm 皮秒激光光源及其系统适配}{30}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}系统设计}{31}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}共聚焦系统原型的迭代演进}{31}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}最终系统光路设计与实现}{32}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}磁吸式快拆多色共聚焦机械结构设计}{33}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}多色激发与多通道探测方案}{34}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}系统初步性能验证}{34}{subsection.3.3.5}%
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}多光子荧光寿命显微镜系统搭建}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}多光子显微成像的基本原理与系统需求}{37}{section.4.1}%
+\contentsline {section}{\numberline {4.2}第一套固定式多光子显微镜系统设计与搭建}{38}{section.4.2}%
+\contentsline {section}{\numberline {4.3}第二套快速切换多光子显微镜系统设计与搭建}{40}{section.4.3}%
+\contentsline {section}{\numberline {4.4}第二套系统的机械设计与光学优化}{42}{section.4.4}%
+\contentsline {section}{\numberline {4.5}多光子系统中的脉冲压缩与脉宽表征}{44}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}脉冲压缩器设计与色散补偿方案分析}{45}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}基于棱镜对的 920\,nm 飞秒激光脉冲压缩}{45}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}物镜及显微系统总色散的测量与补偿}{49}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}基于双光子吸收的自相干脉宽表征与实验验证}{50}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}多通腔(MPC)脉冲压缩原理与优势}{53}{subsection.4.5.5}%
+\contentsline {subsubsection}{\numberline {4.5.5.1}MPC 腔体设计与光斑分布}{53}{subsubsection.4.5.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.5.2}非线性介质厚度选取与自聚焦效应考量}{54}{subsubsection.4.5.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.5.3}几何轨迹仿真}{54}{subsubsection.4.5.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.5.4}MPC 时频域压缩结果}{54}{subsubsection.4.5.5.4}%
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}}荧光寿命成像}{56}{chapter.5}%
+\contentsline {section}{\numberline {5.1}荧光寿命成像(FLIM)技术概述}{56}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}荧光寿命的物理基础}{57}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}荧光衰减模型与寿命提取}{58}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}仪器响应函数(IRF)标定与同步延迟校准}{60}{section.5.2}%
+\contentsline {section}{\numberline {5.3}FLIM 数据采集与同步模式设计}{61}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}点扫描系统中的时序同步关系}{61}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}单路同步采集模式}{62}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}三路同步采集模式}{62}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}FLIM 系统操作流程与数据处理链路}{64}{section.5.4}%
+\contentsline {section}{\numberline {5.5}FLIM 成像结果与寿命拟合分析}{66}{section.5.5}%
+\contentsline {section}{\numberline {5.6}硬件采集卡死区时间问题及优化}{70}{section.5.6}%
+\contentsline {chapter}{\numberline {第6章\hspace {.3em}}总结与展望}{73}{chapter.6}%
+\contentsline {section}{\numberline {6.1}全文总结}{73}{section.6.1}%
+\contentsline {section}{\numberline {6.2}未来展望}{74}{section.6.2}%
+\contentsline {chapter}{参考文献}{76}{section*.64}%
+\contentsline {chapter}{\numberline {附录 \rmfamily 一\hspace {.3em}}自研物镜补充分析}{80}{appendix.A}%
+\contentsline {chapter}{\numberline {附录 \rmfamily 二\hspace {.3em}}超短脉冲压缩与表征补充分析}{82}{appendix.B}%
+\contentsline {section}{\numberline {附录二.1}自相干仪测量原理与预实验条件}{82}{section.B.1}%
+\contentsline {subsection}{\numberline {附录二.1.1}干涉自相关的数学模型与峰背比}{82}{subsection.B.1.1}%
+\contentsline {subsection}{\numberline {附录二.1.2}脉冲宽度的解算(去相关因子)}{83}{subsection.B.1.2}%
+\contentsline {subsection}{\numberline {附录二.1.3}脉冲啁啾(Chirp)现象的识别与分析}{84}{subsection.B.1.3}%
+\contentsline {section}{\numberline {附录二.2}多通腔脉冲压缩补充仿真结果}{84}{section.B.2}%
+\contentsline {chapter}{\numberline {附录 \rmfamily 三\hspace {.3em}}双椭圆级联等光程扫描结构的理论设计与仿真}{86}{appendix.C}%
+\contentsline {section}{\numberline {附录三.1}传统扫描结构的局限性}{86}{section.C.1}%
+\contentsline {section}{\numberline {附录三.2}椭圆等光程扫描原理}{87}{section.C.2}%
+\contentsline {section}{\numberline {附录三.3}单椭圆结构的扫描速率非均匀性与双椭圆结构设计}{88}{section.C.3}%
+\contentsline {chapter}{\numberline {附录 \rmfamily 四\hspace {.3em}}荧光微球标准样品处理流程补充说明}{93}{appendix.D}%
+\contentsline {chapter}{致谢}{95}{appendix*.78}%
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与其他相关学术成果}{97}{appendix*.79}%

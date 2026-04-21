@@ -1,0 +1,63 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1-1}{\ignorespaces 用于细胞尺度神经观测的代表性光学成像技术原理对比示意图\cite {RN2362}}}{3}{figure.caption.15}%
+\contentsline {figure}{\numberline {1-2}{\ignorespaces 不同荧光分子对应的激发波长范围示意图(图片来自Coherent官网)}}{5}{figure.caption.16}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2-1}{\ignorespaces 数字化采样对空间分辨率的影响。(a) 高分辨率连续信号的原始分布；(b) 欠采样条件下的像素化结果；(c) 连续信号像素化中的离散采样示意图}}{9}{figure.caption.18}%
+\contentsline {figure}{\numberline {2-2}{\ignorespaces 点扩散函数在不同激发条件下的能量分布及其宽度表征参数示意图。(a)线性激发与双光子激发条件下焦点附近能量分布的对比；(b)点扩散函数宽度表征参数示意图}}{12}{figure.caption.19}%
+\contentsline {figure}{\numberline {2-3}{\ignorespaces 点扫描中四种代表性扫描轨迹}}{15}{figure.caption.20}%
+\contentsline {figure}{\numberline {2-4}{\ignorespaces 自研空气物镜的 Zemax 设计结果。(a)光学布局图；(b)不同视场点下的 MTF 曲线}}{21}{figure.caption.23}%
+\contentsline {figure}{\numberline {2-5}{\ignorespaces 自研空气物镜的离轴像质分析结果。(a)不同视场位置的像面点列图；(b)场曲分析结果；(c)畸变百分比分析结果}}{23}{figure.caption.25}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3-1}{\ignorespaces 激光扫描共聚焦显微镜系统原理与实现流程示意图}}{26}{figure.caption.28}%
+\contentsline {figure}{\numberline {3-2}{\ignorespaces 共焦小孔尺寸对共聚焦显微镜成像性能的影响。(a) 共焦小孔与艾里斑(Airy disk)的相对大小示意；(b) 轴向分辨率(FWHM$_z$)随小孔直径的变化；(c) 横向分辨率(FWHM$_{xy}$)随小孔直径的变化\cite {Leica}}}{28}{figure.caption.29}%
+\contentsline {figure}{\numberline {3-3}{\ignorespaces 超连续谱激发光源的光谱整形与光束扩束结果。(a) 输出光谱；(b) 扩束前的光斑大小与形状；(c) 扩束后的光斑大小与形状}}{29}{figure.caption.30}%
+\contentsline {figure}{\numberline {3-4}{\ignorespaces 共聚焦系统演进过程。(a) 白光超连续共聚焦系统第一版；(b) 白光超连续共聚焦系统第二版；(c) 白光超连续共聚焦系统第三版；(d) 白光超连续共聚焦系统第四版}}{32}{figure.caption.31}%
+\contentsline {figure}{\numberline {3-5}{\ignorespaces 实际搭建系统图}}{33}{figure.caption.32}%
+\contentsline {figure}{\numberline {3-6}{\ignorespaces 可扩展的磁吸插入式多通道荧光共聚焦显微镜机械设计。(a) 基于 SolidWorks 的机械结构建模；(b) 系统模块化结构示意图}}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {3-7}{\ignorespaces 多色激发共聚焦系统的原理图与实拍图。(a) 多色共聚焦第一层原理图；(b) 多色共聚焦第二层原理图；(c) 多色共聚焦第一层实拍图；(d) 多色共聚焦第二层实拍图}}{35}{figure.caption.34}%
+\contentsline {figure}{\numberline {3-8}{\ignorespaces 使用 USAF 分辨率测试标靶进行分辨率表征}}{35}{figure.caption.35}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4-1}{\ignorespaces 第一套固定式多光子显微镜系统}}{39}{figure.caption.37}%
+\contentsline {figure}{\numberline {4-2}{\ignorespaces OPA 设计光路示意图}}{39}{figure.caption.38}%
+\contentsline {figure}{\numberline {4-3}{\ignorespaces 第一套固定式多光子显微镜系统的代表性成像结果}}{40}{figure.caption.39}%
+\contentsline {figure}{\numberline {4-4}{\ignorespaces 第二套快速切换多光子显微镜系统的分层光学布局。(a) 显微镜第二层结构；(b) 显微镜第三层结构；(c) 显微镜第二层实物布局；(d) 显微镜第三层实物布局}}{41}{figure.caption.40}%
+\contentsline {figure}{\numberline {4-5}{\ignorespaces 第二套快速切换多光子显微镜的机械设计与光学优化。(a) 光学系统机械布局；(b) 顶层扫描结构光学设计示意；(c) 顶层光路设计实际尺寸优化}}{43}{figure.caption.41}%
+\contentsline {figure}{\numberline {4-6}{\ignorespaces 第二套快速切换多光子显微镜系统的实物搭建结果。(a) 多光子系统整体；(b) 多光子系统顶层光路}}{43}{figure.caption.43}%
+\contentsline {figure}{\numberline {4-7}{\ignorespaces 三种典型光栅展宽器结构示意图。(a)Öffner 型展宽器；(b)Martinez 型展宽器；(c)基于平行光栅对的 Treacy 展宽器}}{45}{figure.caption.44}%
+\contentsline {figure}{\numberline {4-8}{\ignorespaces 针对 920\,nm 飞秒激光器设计的双棱镜脉冲压缩装置。(a) 棱镜对压缩器光路示意图；(b) 压缩器实拍图}}{46}{figure.caption.45}%
+\contentsline {figure}{\numberline {4-9}{\ignorespaces 棱镜对压缩器回程结构优化及其对光路稳定性和输出功率的影响。(a) 延迟线调节引起的光路高度变化示意；(b) 调节延迟线引起光路高度变化导致的功率变化；(c) 双反射镜压缩器回程结构优化结果}}{47}{figure.caption.46}%
+\contentsline {figure}{\numberline {4-10}{\ignorespaces 显微系统总色散补偿方案及物镜后脉宽测量。(a) 系统末端脉宽测量光路；(b) 补偿前后脉宽对比结果}}{50}{figure.caption.48}%
+\contentsline {figure}{\numberline {4-11}{\ignorespaces 基于迈克尔逊干涉原理设计的两版自相干仪光路结构。(a) 第一版自相干仪，单分光片结构；(b) 第二版自相干仪，双分光片结构}}{51}{figure.caption.49}%
+\contentsline {figure}{\numberline {4-12}{\ignorespaces DIY 自相干仪与商用自相干仪测量结果对比。(a) DIY 自相干仪测得的干涉自相关曲线；(b) APE PulseCheck NX 测得的脉冲宽度结果}}{51}{figure.caption.50}%
+\contentsline {figure}{\numberline {4-13}{\ignorespaces 放大后的自相干包络中出现的基频干扰信号}}{52}{figure.caption.51}%
+\contentsline {figure}{\numberline {4-14}{\ignorespaces Herriott 型多通腔的几何结构与传播路径仿真结果。(a)光束在 $YZ$ 和 $XZ$ 平面中的投影轨迹及左右腔镜上的反射点分布；(b)腔内三维光线反射路径示意图}}{55}{figure.caption.52}%
+\contentsline {figure}{\numberline {4-15}{\ignorespaces MPC 压缩过程的时频域仿真结果。(a)压缩前后时域脉冲对比；(b)压缩前后频域光谱对比}}{55}{figure.caption.53}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5-1}{\ignorespaces 荧光寿命的物理机制与单指数衰减表征示意图。(a) Jablonski 能级图示意\cite {RN568}；(b) 单指数荧光衰减及其对数线性拟合示意}}{57}{figure.caption.54}%
+\contentsline {figure}{\numberline {5-2}{\ignorespaces 基于 TCSPC 的荧光寿命获取与图像重建示意图。(a) 激发脉冲与荧光发射之间的时间延迟测量原理；(b) 多次光子到达事件累积形成 TCSPC 延迟时间直方图的过程；(c) 基于像素级荧光衰减拟合得到的荧光寿命分布图}}{59}{figure.caption.55}%
+\contentsline {figure}{\numberline {5-3}{\ignorespaces 点扫描图像重建中的空间扫描层级与同步时序关系示意。(a) 点扫描图像的像素、行与帧层级关系；(b) 与图像重建对应的 pixel sync、 line sync 和 frame sync 时序关系}}{61}{figure.caption.56}%
+\contentsline {figure}{\numberline {5-4}{\ignorespaces 单路同步采集模式中的数据流与采样分布示意。(a) 单路同步模式下的数据采集流程；(b) 单路同步下某一行信号的光子分布密度}}{63}{figure.caption.57}%
+\contentsline {figure}{\numberline {5-5}{\ignorespaces 三路同步模式下的荧光寿命成像及与反射式图像、激发功率之间的关系。(a) 反射式共聚焦图像与三路同步 FLIM 图像对比；(b) 不同激发功率条件下的 TCSPC 成像结果}}{64}{figure.caption.58}%
+\contentsline {figure}{\numberline {5-6}{\ignorespaces FLIM 数据处理链路与多路时序同步关系。(a) 当前已建立的荧光寿命成像处理流程；(b) 三路同步下 Frame、Line、Sync 及其合并信号的时序关系}}{65}{figure.caption.59}%
+\contentsline {figure}{\numberline {5-7}{\ignorespaces 优化后的反射式、TCSPC 与单光子计数方式下的 FLIM 成像结果。(a) 反射式共聚焦参考图像；(b) 商用 TCSPC 板卡获得的荧光寿命图像；(c) 单路同步采集条件下优化后的信号分布；(d) 基于单光子计数流程重建得到的荧光寿命热图}}{67}{figure.caption.60}%
+\contentsline {figure}{\numberline {5-8}{\ignorespaces 优化采集条件后的 FLIM 成像结果与逐像素寿命拟合分析。(a) 在单路同步荧光寿命模式下随机选取四个像素进行单指数拟合；(b) 对图a同样的条件下使用商用 SPCM 软件(Becker \& Hickl GmbH)拟合结果}}{68}{figure.caption.61}%
+\contentsline {figure}{\numberline {5-9}{\ignorespaces 不同荧光寿命区间下样品轮廓与成分分布结果，展示了使用当前算法得到的荧光寿命切片能力。(a) $2\sim 3$ ns；(b) $3\sim 4$ ns；(c) $4\sim 5$ ns；(d) $>5$ ns}}{69}{figure.caption.62}%
+\contentsline {figure}{\numberline {5-10}{\ignorespaces SPAD 探测器与数据采集卡死区时间分析示意图。(a) SPAD 探测器的雪崩、淬灭与恢复过程及其物理死区时间；(b) 数据采集卡在标准采集窗口下对触发事件的记录流程；(c) 相邻触发间隔小于最小重置时间时采集卡的漏触发现象；(d) 采用 long record 策略降低固定重置时间占比、提升有效采集效率的示意图}}{71}{figure.caption.63}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {附录一-1}{\ignorespaces 自研空气物镜的补充像差分析结果。(a)FFT PSF 截面图；(b)轴向像差曲线}}{80}{figure.caption.67}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {附录二-1}{\ignorespaces 待测激光的平均功率与脉冲稳定性标定结果。(a) 待测激光平均功率标定结果；(b) 待测激光脉冲稳定性标定结果}}{82}{figure.caption.68}%
+\contentsline {figure}{\numberline {附录二-2}{\ignorespaces 自相干干涉信号特征及啁啾脉冲分析示意图。(a) 强度自相关仪中的干涉信号峰值背景比；(b) 严重啁啾飞秒脉冲的干涉自相关曲线\cite {thorlabs}}}{84}{figure.caption.69}%
+\contentsline {figure}{\numberline {附录二-3}{\ignorespaces 仅考虑自相位调制时的频谱展宽示意图}}{85}{figure.caption.70}%
+\contentsline {figure}{\numberline {附录二-4}{\ignorespaces 不同阶色散对超短高斯脉冲时域形状的影响}}{85}{figure.caption.71}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {附录三-1}{\ignorespaces 扫描系统中的光程不等及其引起的视场畸变示意图。(a) 传统扫描结构中的光程不等与等光程面示意图；(b) 扫描光程不等导致的视场畸变(桶形畸变与枕形畸变)}}{86}{figure.caption.72}%
+\contentsline {figure}{\numberline {附录三-2}{\ignorespaces 椭圆等光程扫描结构与常规扫描结构原理对比。(a) 基于椭圆反射面的等光程扫描结构；(b) 常规扫描结构}}{87}{figure.caption.73}%
+\contentsline {figure}{\numberline {附录三-3}{\ignorespaces 单椭圆扫描结构及其入射/出射光扫描速率关系。(a) 单椭圆等光程扫描结构示意；(b) 入射光与出射光扫描速率之间的非均匀关系}}{88}{figure.caption.74}%
+\contentsline {figure}{\numberline {附录三-4}{\ignorespaces 双椭圆扫描系统功能框图、参数优化及扫描特性分析。(a) 双椭圆级联匀速扫描系统功能框图；(b) 不同 $e_2$ 下扫描速度放大倍率 $k$ 的稳定性分析；(c) 双椭圆扫描结构的光线追迹与几何关系；(d) 双椭圆扫描结构中入射光与出射光的扫描速率关系}}{89}{figure.caption.75}%
+\contentsline {figure}{\numberline {附录三-5}{\ignorespaces 双椭圆扫描结构的三视图与工作原理示意图。(a) 正视图；(b) 斜视图；(c) 工作原理图}}{90}{figure.caption.76}%
+\contentsline {figure}{\numberline {附录三-6}{\ignorespaces 双椭圆扫描结构的像差与像质分析结果。(a) 光路布局图；(b) 像场弯曲与 $F$-$\tan (\mittheta )$ 畸变曲线；(c) 全视场点列图；(d) 塞德尔像差系数图}}{91}{figure.caption.77}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

@@ -1,0 +1,47 @@
+%---------------------------------------------------------------------------%
+%->> Frontmatter
+%---------------------------------------------------------------------------%
+%-
+%-> 生成封面
+%-
+
+\maketitle% 生成中文封面
+\MAKETITLE% 生成英文封面
+%-
+%-> 作者声明
+%-
+\makedeclaration% 生成声明页
+%-
+%-> 中文摘要
+%-
+\intobmk\chapter*{摘\quad 要}% 显示在书签但不显示在目录
+\setcounter{page}{1}% 开始页码
+\pagenumbering{Roman}% 页码符号
+
+多光子荧光寿命成像技术结合了多光子显微成像的深层组织穿透能力、内禀三维光学切片能力，以及荧光寿命成像对探针浓度、激发功率和组织衰减不敏感的定量优势，在活体神经成像和复杂微环境分析中具有重要应用价值。围绕活体生物成像对高分辨率、高灵敏度和高时序精度的需求，本文开展了共聚焦与多光子荧光寿命成像系统的理论分析、光机系统构建、超快脉冲调控、同步采集链路开发及寿命拟合研究。
+
+本文首先从点扫描显微成像中的像素停留时间、采样分辨率、点扩散函数及有效激发体积等问题出发，分析了扫描视场、物镜参数与成像性能之间的关系，并为后续系统设计提供了理论依据。在此基础上，构建了模块化激光扫描共聚焦荧光寿命显微镜，提出磁吸式快拆多色光学架构，实现了多波段激发与探测通道的高重复性快速切换，并建立了仪器响应函数标定、同步延迟校准及数据采集流程。
+
+面向活体大范围与高帧率成像需求，本文进一步设计并构建了两套多光子显微平台，实现了振镜-振镜与振镜-共振镜双扫描模式的无缝切换。针对飞秒脉冲在显微系统中的色散展宽问题，设计了基于棱镜对的脉冲压缩与色散补偿装置，并结合自建自相干仪完成了物镜后脉宽表征与补偿效果验证。同时，本文打通了单路与三路同步的时间相关单光子计数采集链路，优化了硬件死区时间限制，建立了从同步采集、像素重分配到逐像素寿命拟合的完整数据处理流程，并开发了与商用软件结果一致性较好的寿命拟合算法。
+
+本文完成了从点扫描理论分析、光机系统搭建、多光子激发与脉冲调控，到荧光寿命采集与数据处理链路建立的系统研究，为后续面向深层组织功能成像与活体神经活动记录的系统优化和应用拓展奠定了基础。
+
+\keywords{多光子显微成像，多色共聚焦显微镜，荧光寿命成像，时间相关单光子计数，色散补偿}% 中文关键词
+%-
+%-> 英文摘要
+%-
+\intobmk\chapter*{Abstract}% 显示在书签但不显示在目录
+Multiphoton fluorescence lifetime imaging combines the deep-tissue penetration and intrinsic three-dimensional optical sectioning capability of multiphoton microscopy with the quantitative advantages of fluorescence lifetime imaging (FLIM), which is largely insensitive to probe concentration, excitation power, and tissue attenuation. It is therefore valuable for in vivo neural imaging and complex microenvironment analysis. To meet the demands of in vivo biological imaging for high spatial resolution, high sensitivity, and high temporal precision, this thesis investigates the theoretical analysis, system construction, ultrafast pulse control, synchronized acquisition, and lifetime fitting of confocal and multiphoton FLIM systems.
+
+Starting from the fundamental issues of point-scanning microscopy, including pixel dwell time, sampling resolution, point spread function, and effective excitation volume, this thesis analyzes the relationships among scanning field of view, objective parameters, and imaging performance, providing the theoretical basis for subsequent system design. On this basis, a modular laser-scanning confocal FLIM system was constructed. A magnetic quick-release multi-color optical architecture was proposed to enable highly repeatable and rapid switching of multi-band excitation and detection channels, and workflows for instrument response function calibration, synchronization-delay calibration, and data acquisition were established.
+
+For large-area and high-frame-rate imaging, two multiphoton microscopy platforms were further designed and built, enabling seamless switching between Galvo-Galvo and Galvo-Resonant scanning modes. To compensate for femtosecond pulse broadening in the microscope, a prism-pair-based pulse-compression and dispersion-compensation scheme was implemented, and its effectiveness was verified through pulse-width characterization after the objective using a self-built autocorrelator. In addition, single-channel and three-channel synchronized time-correlated single-photon counting acquisition pipelines were established, hardware dead-time limitations were optimized, and a complete data-processing workflow from synchronized acquisition and pixel reassignment to pixel-wise lifetime fitting was developed. A lifetime fitting algorithm with good consistency with commercial software was also achieved.
+
+Overall, this thesis completes a systematic study spanning point-scanning theory, opto-mechanical system construction, multiphoton excitation and pulse control, and fluorescence lifetime acquisition and processing, providing a foundation for future optimization and applications in deep-tissue functional imaging and in vivo neural activity recording.
+
+\KEYWORDS{Multiphoton Microscopy, Multi-Color Confocal Microscopy, Fluorescence Lifetime Imaging, Time-Correlated Single-Photon Counting, Dispersion Compensation}% 英文关键词
+
+\pagestyle{enfrontmatterstyle}%
+\cleardoublepage\pagestyle{frontmatterstyle}%
+
+%---------------------------------------------------------------------------%

@@ -1,0 +1,351 @@
+\begin{thebibliography}{49}
+\providecommand{\biband}{和}
+\providecommand{\bibetal}{等}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Schermelleh {\bibetal}(2019)Schermelleh, Ferrand, Huser, Eggeling, Sauer, Biehlmaier, and Drummen]{RN2362}
+Schermelleh~L, Ferrand~A, Huser~T, et~al.
+\newblock Super-resolution microscopy demystified [J/OL].
+\newblock Nat Cell Biol, 2019, 21\penalty0 (1): 72-84.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/30602772}.
+\newblock DOI: \doi{10.1038/s41556-018-0251-8}.
+
+\bibitem[Borlinghaus(2017)]{Leica}
+Borlinghaus~R.
+\newblock Pinhole effect in confocal microscopes [J].
+\newblock Science Lab—The Knowledge Portal of Leica Microsystems CMS GmbH, Mannheim, Germany, 2017, 26.
+
+\bibitem[Datta {\bibetal}(2020)Datta, Heaster, Sharick, Gillette, and Skala]{RN568}
+Datta~R, Heaster~T~M, Sharick~J~T, et~al.
+\newblock Fluorescence lifetime imaging microscopy: fundamentals and advances in instrumentation, analysis, and applications [J/OL].
+\newblock J Biomed Opt, 2020, 25\penalty0 (7): 1-43.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/32406215}.
+\newblock DOI: \doi{10.1117/1.JBO.25.7.071203}.
+
+\bibitem[{Thorlabs, Inc.}(2026)]{thorlabs}
+{Thorlabs, Inc.}
+\newblock Autocorrelator for femtosecond lasers [EB/OL].
+\newblock 2026.
+\newblock \url{https://www.thorlabs.com/autocorrelator-for-femtosecond-lasers?tabName=Overview}.
+
+\bibitem[Wang(2026)]{RN2016}
+Wang~R.
+\newblock Global burden of alzheimer's disease and other dementias during 1990-2021: A global burden of disease and risk factors study 2021-based study [J/OL].
+\newblock Neuroepidemiology, 2026, 60\penalty0 (1): 16-27.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/39837288}.
+\newblock DOI: \doi{10.1159/000543578}.
+
+\bibitem[Meng {\bibetal}(2024)Meng, Wu, Huang, Liang, and Fang]{RN2015}
+Meng~D, Wu~J, Huang~X, et~al.
+\newblock Prevalence of parkinson's disease among adults aged 45 years and older in china: a cross-sectional study based on the china health and retirement longitudinal study [J/OL].
+\newblock BMC Public Health, 2024, 24\penalty0 (1): 1218.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/38698350}.
+\newblock DOI: \doi{10.1186/s12889-024-18653-0}.
+
+\bibitem[Chamberlain {\bibetal}(2011)Chamberlain, Wengenack, Poduslo, Garwood, and Jack]{RN2107}
+Chamberlain~R, Wengenack~T~M, Poduslo~J~F, et~al.
+\newblock Magnetic resonance imaging of amyloid plaques in transgenic mouse models of alzheimer's disease [J/OL].
+\newblock Curr Med Imaging Rev, 2011, 7\penalty0 (1): 3-7.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/21499442}.
+\newblock DOI: \doi{10.2174/157340511794653522}.
+
+\bibitem[Bandettini {\bibetal}(1992)Bandettini, Wong, Hinks, Tikofsky, and Hyde]{RN2006}
+Bandettini~P~A, Wong~E~C, Hinks~R~S, et~al.
+\newblock Time course epi of human brain function during task activation [J/OL].
+\newblock Magn Reson Med, 1992, 25\penalty0 (2): 390-7.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/1614324}.
+\newblock DOI: \doi{10.1002/mrm.1910250220}.
+
+\bibitem[Wrenn {\bibetal}(1951)Wrenn, Good, and Handler]{RN2008}
+Wrenn~J, F.~R., Good~M~L, Handler~P.
+\newblock The use of positron-emitting radioisotopes for the localization of brain tumors [J/OL].
+\newblock Science, 1951, 113\penalty0 (2940): 525-7.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/14828392}.
+\newblock DOI: \doi{10.1126/science.113.2940.525}.
+
+\bibitem[Anger(1964)]{RN2009}
+Anger~H~O.
+\newblock Scintillation camera with multichannel collimators [J/OL].
+\newblock Journal of Nuclear Medicine, 1964, 5\penalty0 (7): 515-531.
+\newblock \url{<Go to ISI>://WOS:A1964WM65600003}.
+\newblock DOI: \doi{10.1001/jama.1965.03080190014004.JAMA.}
+
+\bibitem[Sakmann {\bibetal}(1984)Sakmann and Neher]{RN2011}
+Sakmann~B, Neher~E.
+\newblock Patch clamp techniques for studying ionic channels in excitable membranes [J/OL].
+\newblock Annu Rev Physiol, 1984, 46\penalty0 (1): 455-72.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/6143532}.
+\newblock DOI: \doi{10.1146/annurev.ph.46.030184.002323}.
+
+\bibitem[Zhang {\bibetal}(2025)Zhang, Qiao, Jin, Li, Gong, Chen, Luo, and Yuan]{RN2017}
+Zhang~J, Qiao~W, Jin~R, et~al.
+\newblock Optical sectioning methods in three-dimensional bioimaging [J/OL].
+\newblock Light Sci Appl, 2025, 14\penalty0 (1): 11.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/39741128}.
+\newblock DOI: \doi{10.1038/s41377-024-01677-x}.
+
+\bibitem[Kim {\bibetal}(2022)Kim and Schnitzer]{RN131}
+Kim~T~H, Schnitzer~M~J.
+\newblock Fluorescence imaging of large-scale neural ensemble dynamics [J/OL].
+\newblock Cell, 2022, 185\penalty0 (1): 9-41.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/34995519}.
+\newblock DOI: \doi{10.1016/j.cell.2021.12.007}.
+
+\bibitem[Waters(2020)]{RN1805}
+Waters~J.
+\newblock Sources of widefield fluorescence from the brain [J/OL].
+\newblock Elife, 2020, 9.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/33155981}.
+\newblock DOI: \doi{10.7554/eLife.59841}.
+
+\bibitem[Ahrens {\bibetal}(2013)Ahrens, Orger, Robson, Li, and Keller]{RN2113}
+Ahrens~M~B, Orger~M~B, Robson~D~N, et~al.
+\newblock Whole-brain functional imaging at cellular resolution using light-sheet microscopy [J/OL].
+\newblock Nat Methods, 2013, 10\penalty0 (5): 413-20.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/23524393}.
+\newblock DOI: \doi{10.1038/nmeth.2434}.
+
+\bibitem[Simpson {\bibetal}(2024)Simpson, Akam, Patriarchi, Blanco-Pozo, Burgeno, Mohebi, Cragg, and Walton]{RN2114}
+Simpson~E~H, Akam~T, Patriarchi~T, et~al.
+\newblock Lights, fiber, action! a primer on in vivo fiber photometry [J/OL].
+\newblock Neuron, 2024, 112\penalty0 (5): 718-739.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/38103545}.
+\newblock DOI: \doi{10.1016/j.neuron.2023.11.016}.
+
+\bibitem[Huang {\bibetal}(1991)Huang, Swanson, Lin, Schuman, Stinson, Chang, Hee, Flotte, Gregory, Puliafito, and et~al.]{RN2108}
+Huang~D, Swanson~E~A, Lin~C~P, et~al.
+\newblock Optical coherence tomography [J/OL].
+\newblock Science, 1991, 254\penalty0 (5035): 1178-81.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/1957169}.
+\newblock DOI: \doi{10.1126/science.1957169}.
+
+\bibitem[Wang {\bibetal}(2016)Wang and Yao]{RN1464}
+Wang~L~V, Yao~J.
+\newblock A practical guide to photoacoustic tomography in the life sciences [J/OL].
+\newblock Nat Methods, 2016, 13\penalty0 (8): 627-38.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/27467726}.
+\newblock DOI: \doi{10.1038/nmeth.3925}.
+
+\bibitem[Jonkman {\bibetal}(2020)Jonkman, Brown, Wright, Anderson, and North]{RN1326}
+Jonkman~J, Brown~C~M, Wright~G~D, et~al.
+\newblock Tutorial: guidance for quantitative confocal microscopy [J/OL].
+\newblock Nat Protoc, 2020, 15\penalty0 (5): 1585-1611.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/32235926}.
+\newblock DOI: \doi{10.1038/s41596-020-0313-9}.
+
+\bibitem[Alvarez {\bibetal}(2019)Alvarez, Widzgowski, Ossato, van~den Broek, Jalink, Kuschel, Roberti, and Hecht]{RN1938}
+Alvarez~L~A~J, Widzgowski~B, Ossato~G, et~al.
+\newblock Sp8 falcon: a novel concept in fluorescence lifetime imaging enabling video-rate confocal flim [J/OL].
+\newblock Nature Methods, 2019, 16\penalty0 (10).
+\newblock \url{<Go to ISI>://WOS:000488225900001}.
+
+\bibitem[Denk {\bibetal}(1990)Denk, Strickler, and Webb]{RN2024}
+Denk~W, Strickler~J~H, Webb~W~W.
+\newblock Two-photon laser scanning fluorescence microscopy [J/OL].
+\newblock Science, 1990, 248\penalty0 (4951): 73-6.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/2321027}.
+\newblock DOI: \doi{10.1126/science.2321027}.
+
+\bibitem[Denk {\bibetal}(1997)Denk and Svoboda]{RN2028}
+Denk~W, Svoboda~K.
+\newblock Photon upmanship: why multiphoton imaging is more than a gimmick [J/OL].
+\newblock Neuron, 1997, 18\penalty0 (3): 351-7.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/9115730}.
+\newblock DOI: \doi{10.1016/s0896-6273(00)81237-4}.
+
+\bibitem[Besseling {\bibetal}(2015)Besseling, Jose, and Van~Blaaderen]{RN2022}
+Besseling~T~H, Jose~J, Van~Blaaderen~A.
+\newblock Methods to calibrate and scale axial distances in confocal microscopy as a function of refractive index [J/OL].
+\newblock J Microsc, 2015, 257\penalty0 (2): 142-50.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/25444358}.
+\newblock DOI: \doi{10.1111/jmi.12194}.
+
+\bibitem[Feldmann {\bibetal}(2021)Feldmann, Youngblood, Karpov, Gehring, Li, Stappers, Le~Gallo, Fu, Lukashchuk, Raja, Liu, Wright, Sebastian, Kippenberg, Pernice, and Bhaskaran]{RN256}
+Feldmann~J, Youngblood~N, Karpov~M, et~al.
+\newblock Parallel convolutional processing using an integrated photonic tensor core [J/OL].
+\newblock Nature, 2021, 589\penalty0 (7840): 52-58.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/33408373}.
+\newblock DOI: \doi{10.1038/s41586-020-03070-1}.
+
+\bibitem[Zipfel {\bibetal}(2003)Zipfel, Williams, and Webb]{RN1177}
+Zipfel~W~R, Williams~R~M, Webb~W~W.
+\newblock Nonlinear magic: multiphoton microscopy in the biosciences [J/OL].
+\newblock Nat Biotechnol, 2003, 21\penalty0 (11): 1369-77.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/14595365}.
+\newblock DOI: \doi{10.1038/nbt899}.
+
+\bibitem[Radmacher {\bibetal}(2024)Radmacher, Nevskyi, Gallea, Thiele, Gregor, Rizzoli, and Enderlein]{RN1325}
+Radmacher~N, Nevskyi~O, Gallea~J~I, et~al.
+\newblock Doubling the resolution of fluorescence-lifetime single-molecule localization microscopy with image scanning microscopy [J/OL].
+\newblock Nature Photonics, 2024, 18\penalty0 (10): 1059-1066.
+\newblock \url{<Go to ISI>://WOS:001283321800003}.
+\newblock DOI: \doi{10.1038/s41566-024-01481-4}.
+
+\bibitem[Helmchen {\bibetal}(2005)Helmchen and Denk]{RN372}
+Helmchen~F, Denk~W.
+\newblock Deep tissue two-photon microscopy [J/OL].
+\newblock Nat Methods, 2005, 2\penalty0 (12): 932-40.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/16299478}.
+\newblock DOI: \doi{10.1038/nmeth818}.
+
+\bibitem[Lakowicz(1999)]{RN563}
+Lakowicz~J~R.
+\newblock Time-domain lifetime measurements [M/OL].
+\newblock Boston, MA: Springer US, 1999: 95-140.
+\newblock \url{https://doi.org/10.1007/978-1-4757-3061-6_4}.
+
+\bibitem[Suhling {\bibetal}(2005)Suhling, French, and Phillips]{RN2036}
+Suhling~K, French~P~M, Phillips~D.
+\newblock Time-resolved fluorescence microscopy [J/OL].
+\newblock Photochem Photobiol Sci, 2005, 4\penalty0 (1): 13-22.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/15616687}.
+\newblock DOI: \doi{10.1039/b412924p}.
+
+\bibitem[Torrado {\bibetal}(2024)Torrado, Pannunzio, Malacrida, and Digman]{RN1623}
+Torrado~B, Pannunzio~B, Malacrida~L, et~al.
+\newblock Fluorescence lifetime imaging microscopy [J/OL].
+\newblock Nature Reviews Methods Primers, 2024, 4\penalty0 (1).
+\newblock \url{<Go to ISI>://WOS:001352376500001}.
+\newblock DOI: \doi{ARTN}, \doi{80}, \doi{10.1038/s43586-024-00358-8}.
+
+\bibitem[Zhou {\bibetal}(2023)Zhou, Bec, Ehrlich, Garcia, and Marcu]{RN2118}
+Zhou~X, Bec~J, Ehrlich~K, et~al.
+\newblock Pulse-sampling fluorescence lifetime imaging: evaluation of photon economy [J/OL].
+\newblock Opt Lett, 2023, 48\penalty0 (17): 4578-4581.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/37656559}.
+\newblock DOI: \doi{10.1364/OL.490096}.
+
+\bibitem[Requejo-Isidro {\bibetal}(2004)Requejo-Isidro, McGinty, Munro, Elson, Galletly, Lever, Neil, Stamp, French, Kellett, Hares, and Dymoke-Bradshaw]{RN2120}
+Requejo-Isidro~J, McGinty~J, Munro~I, et~al.
+\newblock High-speed wide-field time-gated endoscopic fluorescence-lifetime imaging [J/OL].
+\newblock Opt Lett, 2004, 29\penalty0 (19): 2249-51.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/15524370}.
+\newblock DOI: \doi{10.1364/ol.29.002249}.
+
+\bibitem[Poudel {\bibetal}(2020)Poudel, Mela, and Kaminski]{RN2075}
+Poudel~C, Mela~I, Kaminski~C~F.
+\newblock High-throughput, multi-parametric, and correlative fluorescence lifetime imaging [J/OL].
+\newblock Methods Appl Fluoresc, 2020, 8\penalty0 (2): 024005.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/32028271}.
+\newblock DOI: \doi{10.1088/2050-6120/ab7364}.
+
+\bibitem[Becker(2015)]{RN1656}
+Becker~W.
+\newblock Advanced time-correlated single photon counting applications: volume 111 [M/OL].
+\newblock Springer, 2015.
+\newblock DOI: \doi{10.1007/978-3-319-14929-5}.
+
+\bibitem[Becker {\bibetal}(2004)Becker, Bergmann, Biscotti, and Rueck]{RN897}
+Becker~W, Bergmann~A, Biscotti~G~L, et~al.
+\newblock Advanced time-correlated single photon counting techniques for spectroscopy and imaging in biomedical systems [C/OL]//\allowbreak
+Commercial and Biomedical Applications of Ultrafast Lasers IV: volume 5340.
+\newblock SPIE, 2004: 104-112.
+\newblock DOI: \doi{10.1117/12.529143}.
+
+\bibitem[Wahl {\bibetal}(2008)Wahl, Rahn, Rohlicke, Kell, Nettels, Hillger, Schuler, and Erdmann]{RN2050}
+Wahl~M, Rahn~H~J, Rohlicke~T, et~al.
+\newblock Scalable time-correlated photon counting system with multiple independent input channels [J/OL].
+\newblock Rev Sci Instrum, 2008, 79\penalty0 (12): 123113.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/19123551}.
+\newblock DOI: \doi{10.1063/1.3055912}.
+
+\bibitem[Wahl {\bibetal}(2007)Wahl, Rahn, Gregor, Erdmann, and Enderlein]{RN2049}
+Wahl~M, Rahn~H~J, Gregor~I, et~al.
+\newblock Dead-time optimized time-correlated photon counting instrument with synchronized, independent timing channels [J/OL].
+\newblock Rev Sci Instrum, 2007, 78\penalty0 (3): 033106.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/17411177}.
+\newblock DOI: \doi{10.1063/1.2715948}.
+
+\bibitem[Okabe {\bibetal}(2012)Okabe, Inada, Gota, Harada, Funatsu, and Uchiyama]{RN2037}
+Okabe~K, Inada~N, Gota~C, et~al.
+\newblock Intracellular temperature mapping with a fluorescent polymeric thermometer and fluorescence lifetime imaging microscopy [J/OL].
+\newblock Nat Commun, 2012, 3\penalty0 (1): 705.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/22426226}.
+\newblock DOI: \doi{10.1038/ncomms1714}.
+
+\bibitem[Niehorster {\bibetal}(2016)Niehorster, Loschberger, Gregor, Kramer, Rahn, Patting, Koberling, Enderlein, and Sauer]{RN127}
+Niehorster~T, Loschberger~A, Gregor~I, et~al.
+\newblock Multi-target spectrally resolved fluorescence lifetime imaging microscopy [J/OL].
+\newblock Nat Methods, 2016, 13\penalty0 (3): 257-62.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/26808668}.
+\newblock DOI: \doi{10.1038/nmeth.3740}.
+
+\bibitem[Zheng {\bibetal}(2018)Zheng, Jensen, and Rusakov]{RN2038}
+Zheng~K, Jensen~T~P, Rusakov~D~A.
+\newblock Monitoring intracellular nanomolar calcium using fluorescence lifetime imaging [J/OL].
+\newblock Nat Protoc, 2018, 13\penalty0 (3): 581-597.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/29470463}.
+\newblock DOI: \doi{10.1038/nprot.2017.154}.
+
+\bibitem[Chang {\bibetal}(2024)Chang, Hsu, Ko, Chang, Hsieh, Wu, and Tung]{RN2040}
+Chang~D~M, Hsu~H~H, Ko~P~L, et~al.
+\newblock Rapid time-lapse 3d oxygen tension measurements within hydrogels using widefield frequency-domain fluorescence lifetime imaging microscopy (fd-flim) and image segmentation [J/OL].
+\newblock Analyst, 2024, 149\penalty0 (6): 1727-1737.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/38375547}.
+\newblock DOI: \doi{10.1039/d3an01625k}.
+
+\bibitem[Huang {\bibetal}(2020)Huang, Liang, Zhang, Wang, Fei, Ma, Qu, and Mi]{RN2042}
+Huang~M, Liang~X, Zhang~Z, et~al.
+\newblock Carbon dots for intracellular ph sensing with fluorescence lifetime imaging microscopy [J/OL].
+\newblock Nanomaterials (Basel), 2020, 10\penalty0 (4): 604.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/32218205}.
+\newblock DOI: \doi{10.3390/nano10040604}.
+
+\bibitem[Pliss {\bibetal}(2019)Pliss, Levchenko, Liu, Peng, Ohulchanskyy, Roy, Kuzmin, Qu, and Prasad]{RN2041}
+Pliss~A, Levchenko~S~M, Liu~L, et~al.
+\newblock Cycles of protein condensation and discharge in nuclear organelles studied by fluorescence lifetime imaging [J/OL].
+\newblock Nat Commun, 2019, 10\penalty0 (1): 455.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/30692529}.
+\newblock DOI: \doi{10.1038/s41467-019-08354-3}.
+
+\bibitem[Cole {\bibetal}(2024)Cole, Zähringer, Bohlen, Schröder, Steiner, Pfeiffer, Schueler, Stefani, and Tinnefeld]{RN913}
+Cole~F, Zähringer~J, Bohlen~J, et~al.
+\newblock Super-resolved fret and co-tracking in pminflux [J/OL].
+\newblock Nature Photonics, 2024, 18\penalty0 (5): 478-484.
+\newblock \url{<Go to ISI>://WOS:001160826800002}.
+\newblock DOI: \doi{10.1038/s41566-024-01384-4}.
+
+\bibitem[Kim {\bibetal}(2015)Kim, Kim, and Lee]{RN1809}
+Kim~J~Y, Kim~C, Lee~N~K.
+\newblock Real-time submillisecond single-molecule fret dynamics of freely diffusing molecules with liposome tethering [J/OL].
+\newblock Nat Commun, 2015, 6: 6992.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/25908552}.
+\newblock DOI: \doi{10.1038/ncomms7992}.
+
+\bibitem[Hartmann {\bibetal}(2023)Hartmann, Sreenivasa, Schenkel, Chamachi, Schake, Krainer, and Schlierf]{RN247}
+Hartmann~A, Sreenivasa~K, Schenkel~M, et~al.
+\newblock An automated single-molecule fret platform for high-content, multiwell plate screening of biomolecular conformations and dynamics [J/OL].
+\newblock Nat Commun, 2023, 14\penalty0 (1): 6511.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/37845199}.
+\newblock DOI: \doi{10.1038/s41467-023-42232-3}.
+
+\bibitem[Zhao {\bibetal}(2011)Zhao, Young, and de~Jong]{RN94}
+Zhao~Q, Young~I~T, de~Jong~J~G.
+\newblock Photon budget analysis for fluorescence lifetime imaging microscopy [J/OL].
+\newblock J Biomed Opt, 2011, 16\penalty0 (8): 086007.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/21895319}.
+\newblock DOI: \doi{10.1117/1.3608997}.
+
+\bibitem[{Mitutoyo Corporation}()]{Mitutoyo20xSpec}
+{Mitutoyo Corporation}.
+\newblock Microscope units and objectives (uv, nuv, visible \& nir region): Catalog No. E14020(4)2 [M/OL].
+\newblock Mitutoyo Corporation.
+\newblock \url{https://www.mitutoyo.com/webfoo/wp-content/uploads/E14020.pdf}.
+
+\bibitem[Yu {\bibetal}(2024)Yu, Yu, Adsit, Chang, Barchini, Moberly, Benisty, Kim, Young, Heng, Farinella, Leikvoll, Pavan, Vistein, Nanfito, Hildebrand, Otero-Coronel, Vaziri, Goldberg, Ricci, Fitzpatrick, Cardin, Higley, Smith, Kara, Nielsen, Smith, and Smith]{Yu2024Cousa}
+Yu~C~H, Yu~Y, Adsit~L~M, et~al.
+\newblock The cousa objective: a long-working distance air objective for multiphoton imaging in vivo [J/OL].
+\newblock Nature Methods, 2024, 21: 132-141.
+\newblock DOI: \doi{10.1038/s41592-023-02098-1}.
+
+\end{thebibliography}
