@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.23)  21 APR 2026 17:28
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.6.23)  6 MAY 2026 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1519,7 +1519,7 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 )
 Package hyperref Info: Option `pdffitwindow' set `false' on input line 44.
 Package hyperref Info: Option `colorlinks' set `true' on input line 44.
- (./Thesis.aux (./Tex/06.Appendix.aux))
+ (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -1683,19 +1683,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.045pt
 (hyperref)                replaced by space on input line 55.
 
-(./Thesis.toc
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 12.04628pt on input line 2.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 9.03471pt on input line 2.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 7.22777pt on input line 2.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 12.0437pt on input line 2.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 9.03278pt on input line 2.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 7.22623pt on input line 2.
+No file Thesis.toc.
+\tf@toc=\write5
+\openout5 = `Thesis.toc'.
+
 
 
 [4
@@ -1704,39 +1695,24 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 
 ]
 
-[5])
-\tf@toc=\write5
-\openout5 = `Thesis.toc'.
-
-
-
-[6]
-
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
 (fancyhdr)                Please consider using the `twoside' option on input line 60.
 
-(./Tex/03.Figuretable.tex (./Thesis.lof
-
-[7
-
-
-]
-
-[8]
-
-[9])
+(./Tex/03.Figuretable.tex
+No file Thesis.lof.
 \tf@lof=\write6
 \openout6 = `Thesis.lof'.
 
- (./Thesis.loappfig)
+(./Thesis.loappfig)
 \tf@loappfig=\write7
 \openout7 = `Thesis.loappfig'.
 
- (./Thesis.lot)
+
+No file Thesis.lot.
 \tf@lot=\write8
 \openout8 = `Thesis.lot'.
 
- (./Thesis.loapptab)
+(./Thesis.loapptab)
 \tf@loapptab=\write9
 \openout9 = `Thesis.loapptab'.
 
@@ -1746,21 +1722,91 @@ Package fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
 (fancyhdr)                Please consider using the `twoside' option on input line 1.
 
-[10]
+[5
 
-[11
+
+]
+
+[6
 
 ])
 
-[12] (./Tex/05.Mainmatter.tex (./Tex/05.Chap1.tex
+[7] (./Tex/05.Mainmatter.tex (./Tex/05.Chap1.tex
 第1章
 Package newfloat Info: Setting Plan B file extension to `lof'... on input line 1.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 12.04628pt on input line 4.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 9.03471pt on input line 4.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 7.22777pt on input line 4.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 12.0437pt on input line 4.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 9.03278pt on input line 4.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 7.22623pt on input line 4.
+
+Package natbib Warning: Citation `RN2016' on page 1 undefined on input line 4.
+
+
+Package natbib Warning: Citation `RN2015' on page 1 undefined on input line 4.
+
 
 
 [1
 
 
 ]
+
+Package natbib Warning: Citation `RN2107' on page 2 undefined on input line 25.
+
+
+Package natbib Warning: Citation `RN2006' on page 2 undefined on input line 25.
+
+
+Package natbib Warning: Citation `RN2008' on page 2 undefined on input line 25.
+
+
+Package natbib Warning: Citation `RN2009' on page 2 undefined on input line 25.
+
+
+Package natbib Warning: Citation `RN2011' on page 2 undefined on input line 25.
+
+
+Package natbib Warning: Citation `RN2017' on page 2 undefined on input line 33.
+
+
+Package natbib Warning: Citation `RN131' on page 2 undefined on input line 33.
+
+
+Package natbib Warning: Citation `RN1805' on page 2 undefined on input line 33.
+
+
+Package natbib Warning: Citation `RN2113' on page 2 undefined on input line 33.
+
+
+Package natbib Warning: Citation `RN2114' on page 2 undefined on input line 33.
+
+
+Package natbib Warning: Citation `RN2108' on page 2 undefined on input line 33.
+
+
+Package natbib Warning: Citation `RN1464' on page 2 undefined on input line 33.
+
+
+Package natbib Warning: Citation `RN1326' on page 2 undefined on input line 33.
+
+
+Package natbib Warning: Citation `RN1938' on page 2 undefined on input line 33.
+
+
+Package natbib Warning: Citation `RN2024' on page 2 undefined on input line 33.
+
+
+Package natbib Warning: Citation `RN2028' on page 2 undefined on input line 33.
+
+
 
 [2]
 File: Fig/Fig01.png Graphic file (type bmp)
@@ -1775,12 +1821,44 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 38.
 
 
+Package natbib Warning: Citation `RN2362' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `RN2362' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `RN2362' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `RN2362' on page 3 undefined on input line 38.
+
+
+LaTeX Warning: Reference `fig01' on page 3 undefined on input line 42.
+
+
+
 [3]
+
+Package natbib Warning: Citation `RN2022' on page 4 undefined on input line 49.
+
+
+Package natbib Warning: Citation `RN2024' on page 4 undefined on input line 51.
+
+
+Package natbib Warning: Citation `RN2028' on page 4 undefined on input line 51.
+
 File: Fig/Fig02.jpg Graphic file (type bmp)
 <Fig/Fig02.jpg>
 
+Package natbib Warning: Citation `RN256' on page 4 undefined on input line 65.
+
+
 
 [4]
+
+LaTeX Warning: Reference `fig02' on page 5 undefined on input line 67.
+
+
 
 [5]) (./Tex/05.Chap2.tex
 
@@ -1791,6 +1869,12 @@ File: Fig/Fig02.jpg Graphic file (type bmp)
 [7
 
 ]
+
+LaTeX Warning: Reference `eq:dwell_time_basic' on page 8 undefined on input line 39.
+
+
+LaTeX Warning: Reference `Table2.1' on page 8 undefined on input line 50.
+
 File: Fig/Fig03-a.pdf Graphic file (type pdf)
 <use Fig/Fig03-a.pdf>
 File: Fig/Fig03-b.pdf Graphic file (type pdf)
@@ -1798,10 +1882,41 @@ File: Fig/Fig03-b.pdf Graphic file (type pdf)
 File: Fig/Fig03-c.pdf Graphic file (type pdf)
 <use Fig/Fig03-c.pdf>
 
+LaTeX Warning: Reference `fig03' on page 8 undefined on input line 166.
+
+
+LaTeX Warning: Hyper reference `fig03a' on page 8 undefined on input line 166.
+
+
+LaTeX Warning: Reference `sub@fig03a' on page 8 undefined on input line 166.
+
+
+LaTeX Warning: Reference `fig03' on page 8 undefined on input line 166.
+
+
+LaTeX Warning: Hyper reference `fig03b' on page 8 undefined on input line 166.
+
+
+LaTeX Warning: Reference `sub@fig03b' on page 8 undefined on input line 166.
+
+
+LaTeX Warning: Reference `fig03' on page 8 undefined on input line 166.
+
+
+LaTeX Warning: Hyper reference `fig03c' on page 8 undefined on input line 166.
+
+
+LaTeX Warning: Reference `sub@fig03c' on page 8 undefined on input line 166.
+
+
 
 [8]
 
 [9]
+
+LaTeX Warning: Reference `eq:I0_scaling' on page 10 undefined on input line 202.
+
+
 
 [10]
 File: Fig/Fig07-a.pdf Graphic file (type pdf)
@@ -1810,24 +1925,106 @@ File: Fig/Fig07-b.pdf Graphic file (type pdf)
 <use Fig/Fig07-b.pdf>
 
 
+LaTeX Warning: Reference `fig07' on page 11 undefined on input line 274.
+
+
+LaTeX Warning: Hyper reference `fig07a' on page 11 undefined on input line 274.
+
+
+LaTeX Warning: Reference `sub@fig07a' on page 11 undefined on input line 274.
+
+
+Package natbib Warning: Citation `RN1177' on page 11 undefined on input line 274.
+
+
+
 [11]
+
+LaTeX Warning: Reference `fig07' on page 12 undefined on input line 276.
+
+
+LaTeX Warning: Hyper reference `fig07b' on page 12 undefined on input line 276.
+
+
+LaTeX Warning: Reference `sub@fig07b' on page 12 undefined on input line 276.
+
+
+LaTeX Warning: Reference `eq:m_signal_scaling' on page 12 undefined on input line 293.
+
+
 
 [12]
 
+LaTeX Warning: Reference `eq:peak_power_scaling' on page 13 undefined on input line 295.
+
+
+LaTeX Warning: Reference `4.1' on page 13 undefined on input line 295.
+
+
+LaTeX Warning: Reference `eq:I0_scaling' on page 13 undefined on input line 295.
+
+
+LaTeX Warning: Reference `eq:m_signal_scaling' on page 13 undefined on input line 295.
+
+
+
 [13]
+
+LaTeX Warning: Reference `eq:2p_width_scaling' on page 14 undefined on input line 342.
+
 File: Fig/Fig08.pdf Graphic file (type pdf)
 <use Fig/Fig08.pdf>
+
+LaTeX Warning: Reference `fig08' on page 14 undefined on input line 365.
+
+
+LaTeX Warning: Reference `fig08' on page 14 undefined on input line 365.
+
+
+LaTeX Warning: Reference `fig08' on page 14 undefined on input line 365.
+
+
+LaTeX Warning: Reference `fig08' on page 14 undefined on input line 365.
+
+
+LaTeX Warning: Reference `fig08' on page 14 undefined on input line 365.
+
 
 
 [14]
 
 [15]
 
+Package natbib Warning: Citation `RN1325' on page 16 undefined on input line 380.
+
+
+
 [16]
+
+LaTeX Warning: Reference `tab:objective_brand_compare' on page 17 undefined on input line 433.
+
+
 
 [17]
 
+LaTeX Warning: Reference `eq:Dbfp' on page 18 undefined on input line 462.
+
+
+Package natbib Warning: Citation `RN372' on page 18 undefined on input line 480.
+
+
+
 [18]
+
+LaTeX Warning: Reference `eq:fov_object' on page 19 undefined on input line 512.
+
+
+LaTeX Warning: Reference `eq:fov_object' on page 19 undefined on input line 543.
+
+
+LaTeX Warning: Reference `eq:NAeff' on page 19 undefined on input line 543.
+
+
 
 [19]
 
@@ -1836,6 +2033,55 @@ File: Fig/Fig-Obj-布局图.pdf Graphic file (type pdf)
 <use Fig/Fig-Obj-布局图.pdf>
 File: Fig/Fig-Obj-MTF.pdf Graphic file (type pdf)
 <use Fig/Fig-Obj-MTF.pdf>
+
+
+LaTeX Warning: Reference `fig_obj_layout_mtf' on page 21 undefined on input line 620.
+
+
+LaTeX Warning: Hyper reference `fig_obj_a' on page 21 undefined on input line 620.
+
+
+LaTeX Warning: Reference `sub@fig_obj_a' on page 21 undefined on input line 620.
+
+
+LaTeX Warning: Reference `fig_obj_layout_mtf' on page 21 undefined on input line 620.
+
+
+LaTeX Warning: Hyper reference `fig_obj_b' on page 21 undefined on input line 620.
+
+
+LaTeX Warning: Reference `sub@fig_obj_b' on page 21 undefined on input line 620.
+
+
+LaTeX Warning: Reference `fig_obj_spot_fc_dist' on page 21 undefined on input line 622.
+
+
+LaTeX Warning: Hyper reference `fig_obj_c' on page 21 undefined on input line 622.
+
+
+LaTeX Warning: Reference `sub@fig_obj_c' on page 21 undefined on input line 622.
+
+
+LaTeX Warning: Reference `fig_obj_spot_fc_dist' on page 21 undefined on input line 622.
+
+
+LaTeX Warning: Hyper reference `fig_obj_d' on page 21 undefined on input line 622.
+
+
+LaTeX Warning: Reference `sub@fig_obj_d' on page 21 undefined on input line 622.
+
+
+LaTeX Warning: Reference `fig_obj_spot_fc_dist' on page 21 undefined on input line 622.
+
+
+LaTeX Warning: Hyper reference `fig_obj_e' on page 21 undefined on input line 622.
+
+
+LaTeX Warning: Reference `sub@fig_obj_e' on page 21 undefined on input line 622.
+
+
+LaTeX Warning: Reference `fig_obj_psf_lsa' on page 21 undefined on input line 624.
+
 
 
 [21]
@@ -1872,6 +2118,10 @@ File: Fig/Fig10.pdf Graphic file (type pdf)
 <use Fig/Fig10.pdf>
 
 
+LaTeX Warning: Reference `fig10' on page 26 undefined on input line 33.
+
+
+
 [26]
 
 [27]
@@ -1883,7 +2133,26 @@ File: Fig/5.jpg Graphic file (type bmp)
 <Fig/5.jpg>
 
 
+Package natbib Warning: Citation `Leica' on page 28 undefined on input line 94.
+
+
+Package natbib Warning: Citation `Leica' on page 28 undefined on input line 94.
+
+
+Package natbib Warning: Citation `Leica' on page 28 undefined on input line 94.
+
+
+Package natbib Warning: Citation `Leica' on page 28 undefined on input line 94.
+
+
+
 [28]
+
+LaTeX Warning: Reference `fig:Leica' on page 29 undefined on input line 102.
+
+
+LaTeX Warning: Reference `fig:Leica' on page 29 undefined on input line 102.
+
 File: Fig/Fig34.png Graphic file (type bmp)
 <Fig/Fig34.png>
 File: Fig/Fig36.png Graphic file (type bmp)
@@ -1894,7 +2163,41 @@ File: Fig/Fig35.png Graphic file (type bmp)
 
 [29]
 
+LaTeX Warning: Reference `fig34-36' on page 30 undefined on input line 156.
+
+
+LaTeX Warning: Hyper reference `fig34' on page 30 undefined on input line 156.
+
+
+LaTeX Warning: Reference `sub@fig34' on page 30 undefined on input line 156.
+
+
+LaTeX Warning: Reference `fig34-36' on page 30 undefined on input line 158.
+
+
+LaTeX Warning: Hyper reference `fig36' on page 30 undefined on input line 158.
+
+
+LaTeX Warning: Reference `sub@fig36' on page 30 undefined on input line 158.
+
+
+LaTeX Warning: Reference `fig34-36' on page 30 undefined on input line 158.
+
+
+LaTeX Warning: Hyper reference `fig35' on page 30 undefined on input line 158.
+
+
+LaTeX Warning: Reference `sub@fig35' on page 30 undefined on input line 158.
+
+
+LaTeX Warning: Reference `2.4.2' on page 30 undefined on input line 158.
+
+
+
 [30]
+
+LaTeX Warning: Reference `fig:fig30_32' on page 31 undefined on input line 182.
+
 File: Fig/Fig30.png Graphic file (type bmp)
 <Fig/Fig30.png>
 File: Fig/Fig31.pdf Graphic file (type pdf)
@@ -1904,13 +2207,64 @@ File: Fig/Fig31.5.pdf Graphic file (type pdf)
 File: Fig/Fig32.pdf Graphic file (type pdf)
 <use Fig/Fig32.pdf>
 
+LaTeX Warning: Reference `fig:fig30_32' on page 31 undefined on input line 221.
+
+
+LaTeX Warning: Hyper reference `fig:fig30' on page 31 undefined on input line 221.
+
+
+LaTeX Warning: Reference `sub@fig:fig30' on page 31 undefined on input line 221.
+
+
+LaTeX Warning: Reference `fig:fig30_32' on page 31 undefined on input line 223.
+
+
+LaTeX Warning: Hyper reference `fig:fig31' on page 31 undefined on input line 223.
+
+
+LaTeX Warning: Reference `sub@fig:fig31' on page 31 undefined on input line 223.
+
+
+LaTeX Warning: Reference `fig:fig30_32' on page 31 undefined on input line 225.
+
+
+LaTeX Warning: Hyper reference `fig:fig31_5' on page 31 undefined on input line 225.
+
+
+LaTeX Warning: Reference `sub@fig:fig31_5' on page 31 undefined on input line 225.
+
+
 
 [31]
+
+LaTeX Warning: Reference `fig:fig30_32' on page 32 undefined on input line 227.
+
+
+LaTeX Warning: Hyper reference `fig:fig32' on page 32 undefined on input line 227.
+
+
+LaTeX Warning: Reference `sub@fig:fig32' on page 32 undefined on input line 227.
+
+
+LaTeX Warning: Reference `fig3P14' on page 32 undefined on input line 233.
+
 File: Fig/Fig3P14.pdf Graphic file (type pdf)
 <use Fig/Fig3P14.pdf>
 
 
 [32]
+
+LaTeX Warning: Reference `5.5' on page 33 undefined on input line 247.
+
+
+LaTeX Warning: Reference `fig:fig32' on page 33 undefined on input line 247.
+
+
+LaTeX Warning: Reference `fig3P14' on page 33 undefined on input line 247.
+
+
+LaTeX Warning: Reference `fig37-46' on page 33 undefined on input line 253.
+
 File: Fig/Fig37.png Graphic file (type bmp)
 <Fig/Fig37.png>
 File: Fig/Fig46.png Graphic file (type bmp)
@@ -1918,6 +2272,15 @@ File: Fig/Fig46.png Graphic file (type bmp)
 
 
 [33]
+
+LaTeX Warning: Reference `fig37-46' on page 34 undefined on input line 279.
+
+
+LaTeX Warning: Hyper reference `fig37' on page 34 undefined on input line 279.
+
+
+LaTeX Warning: Reference `sub@fig37' on page 34 undefined on input line 279.
+
 File: Fig/FigCon1.pdf Graphic file (type pdf)
 <use Fig/FigCon1.pdf>
 File: Fig/FigCon2.pdf Graphic file (type pdf)
@@ -1926,8 +2289,23 @@ File: Fig/FigReal04.pdf Graphic file (type pdf)
 <use Fig/FigReal04.pdf>
 File: Fig/FigReal01.pdf Graphic file (type pdf)
 <use Fig/FigReal01.pdf>
+
+LaTeX Warning: Reference `figConReal' on page 34 undefined on input line 323.
+
+
+LaTeX Warning: Reference `figConReal' on page 34 undefined on input line 327.
+
+
+LaTeX Warning: Hyper reference `figCon2' on page 34 undefined on input line 327.
+
+
+LaTeX Warning: Reference `sub@figCon2' on page 34 undefined on input line 327.
+
 File: Fig/Fig38.png Graphic file (type bmp)
 <Fig/Fig38.png>
+
+LaTeX Warning: Reference `fig38' on page 34 undefined on input line 340.
+
 
 
 [34]
@@ -1941,13 +2319,26 @@ File: Fig/Fig38.png Graphic file (type bmp)
 [37
 
 ]
+
+LaTeX Warning: Reference `Table2.2' on page 38 undefined on input line 19.
+
 File: Fig/Fig3P13.5.pdf Graphic file (type pdf)
 <use Fig/Fig3P13.5.pdf>
+
+LaTeX Warning: Reference `fig13.5' on page 38 undefined on input line 69.
+
+
+LaTeX Warning: Reference `fig:OPA_layout' on page 38 undefined on input line 71.
+
 
 
 [38]
 File: Fig/FigOPA.pdf Graphic file (type pdf)
 <use Fig/FigOPA.pdf>
+
+
+LaTeX Warning: Reference `FigSup01' on page 39 undefined on input line 84.
+
 
 
 [39]
@@ -1966,7 +2357,23 @@ File: Fig/Fig3P08.pdf Graphic file (type pdf)
 <use Fig/Fig3P08.pdf>
 
 
+LaTeX Warning: Reference `Fig3P2-4' on page 41 undefined on input line 150.
+
+
+LaTeX Warning: Reference `tab:RelayParam' on page 41 undefined on input line 150.
+
+
+LaTeX Warning: Reference `Fig3P2-4' on page 41 undefined on input line 150.
+
+
+LaTeX Warning: Reference `tab:RelayParam' on page 41 undefined on input line 150.
+
+
+
 [41]
+
+LaTeX Warning: Reference `tab:RelayParam' on page 42 undefined on input line 154.
+
 File: Fig/Fig3P12.pdf Graphic file (type pdf)
 <use Fig/Fig3P12.pdf>
 File: Fig/Fig3P10.pdf Graphic file (type pdf)
@@ -2018,6 +2425,9 @@ Underfull \hbox (badness 1881) in paragraph at lines 212--212
 []|\TU/entextrm/m/n/10.53937 galvo \TU/SimSun(1)/m/n/10.53937 模 式
  []
 
+
+LaTeX Warning: Reference `figReal2-3' on page 42 undefined on input line 218.
+
 File: Fig/FigReal02.pdf Graphic file (type pdf)
 <use Fig/FigReal02.pdf>
 File: Fig/FigReal03.pdf Graphic file (type pdf)
@@ -2037,6 +2447,36 @@ File: Fig/FigGrating-3.pdf Graphic file (type pdf)
 <use Fig/FigGrating-3.pdf>
 
 
+LaTeX Warning: Reference `fig:grating_compare' on page 45 undefined on input line 290.
+
+
+LaTeX Warning: Reference `fig:grating_compare' on page 45 undefined on input line 290.
+
+
+LaTeX Warning: Hyper reference `fig:grating_compare_a' on page 45 undefined on input line 290.
+
+
+LaTeX Warning: Reference `sub@fig:grating_compare_a' on page 45 undefined on input line 290.
+
+
+LaTeX Warning: Reference `fig:grating_compare' on page 45 undefined on input line 290.
+
+
+LaTeX Warning: Hyper reference `fig:grating_compare_b' on page 45 undefined on input line 290.
+
+
+LaTeX Warning: Reference `sub@fig:grating_compare_b' on page 45 undefined on input line 290.
+
+
+LaTeX Warning: Reference `fig:grating_compare' on page 45 undefined on input line 290.
+
+
+LaTeX Warning: Hyper reference `fig:grating_compare_c' on page 45 undefined on input line 290.
+
+
+LaTeX Warning: Reference `sub@fig:grating_compare_c' on page 45 undefined on input line 290.
+
+
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\leavevmode@ifvmode' on input line 296.
 
@@ -2052,6 +2492,36 @@ File: Fig/Fig12.jpg Graphic file (type bmp)
 
 
 [45]
+
+LaTeX Warning: Reference `fig11-12' on page 46 undefined on input line 323.
+
+
+LaTeX Warning: Hyper reference `fig11' on page 46 undefined on input line 323.
+
+
+LaTeX Warning: Reference `sub@fig11' on page 46 undefined on input line 323.
+
+
+LaTeX Warning: Reference `FigSup2-4' on page 46 undefined on input line 325.
+
+
+LaTeX Warning: Reference `FigSup2-4' on page 46 undefined on input line 325.
+
+
+LaTeX Warning: Hyper reference `FigSup02' on page 46 undefined on input line 325.
+
+
+LaTeX Warning: Reference `sub@FigSup02' on page 46 undefined on input line 325.
+
+
+LaTeX Warning: Reference `FigSup2-4' on page 46 undefined on input line 325.
+
+
+LaTeX Warning: Hyper reference `FigSup03' on page 46 undefined on input line 325.
+
+
+LaTeX Warning: Reference `sub@FigSup03' on page 46 undefined on input line 325.
+
 File: Fig/FigSup02.pdf Graphic file (type pdf)
 <use Fig/FigSup02.pdf>
 File: Fig/FigSup03.pdf Graphic file (type pdf)
@@ -2065,10 +2535,16 @@ File: Fig/FigSup04.pdf Graphic file (type pdf)
 [47]
 
 [48]
+
+LaTeX Warning: Reference `Table2' on page 49 undefined on input line 562.
+
 File: Fig/Fig13.pdf Graphic file (type pdf)
 <use Fig/Fig13.pdf>
 File: Fig/Fig14.pdf Graphic file (type pdf)
 <use Fig/Fig14.pdf>
+
+LaTeX Warning: Reference `fig13-14' on page 49 undefined on input line 583.
+
 
 
 [49]
@@ -2078,7 +2554,29 @@ File: Fig/Fig39.1-2.pdf Graphic file (type pdf)
 <use Fig/Fig39.1-2.pdf>
 
 
+LaTeX Warning: Reference `fig39.1' on page 50 undefined on input line 622.
+
+
+LaTeX Warning: Reference `fig39.1' on page 50 undefined on input line 622.
+
+
+LaTeX Warning: Hyper reference `fig39.1-1' on page 50 undefined on input line 622.
+
+
+LaTeX Warning: Reference `sub@fig39.1-1' on page 50 undefined on input line 622.
+
+
+
 [50]
+
+LaTeX Warning: Reference `fig39.1' on page 51 undefined on input line 624.
+
+
+LaTeX Warning: Hyper reference `fig39.1-2' on page 51 undefined on input line 624.
+
+
+LaTeX Warning: Reference `sub@fig39.1-2' on page 51 undefined on input line 624.
+
 File: Fig/Fig39.png Graphic file (type bmp)
 <Fig/Fig39.png>
 File: Fig/Fig40.png Graphic file (type bmp)
@@ -2090,13 +2588,80 @@ File: Fig/Fig43.png Graphic file (type bmp)
 <Fig/Fig43.png>
 
 
+LaTeX Warning: Reference `fig39-40' on page 52 undefined on input line 655.
+
+
+LaTeX Warning: Reference `fig43' on page 52 undefined on input line 657.
+
+
+
 [52]
 
 [53]
+
+LaTeX Warning: Reference `fig:mpc_geometry' on page 54 undefined on input line 703.
+
+
+LaTeX Warning: Reference `fig:mpc_geometry' on page 54 undefined on input line 703.
+
+
+LaTeX Warning: Hyper reference `fig:mpc_geometry_a' on page 54 undefined on input line 703.
+
+
+LaTeX Warning: Reference `sub@fig:mpc_geometry_a' on page 54 undefined on input line 703.
+
+
+LaTeX Warning: Reference `fig:mpc_geometry' on page 54 undefined on input line 703.
+
+
+LaTeX Warning: Hyper reference `fig:mpc_geometry_b' on page 54 undefined on input line 703.
+
+
+LaTeX Warning: Reference `sub@fig:mpc_geometry_b' on page 54 undefined on input line 703.
+
 File: Fig/MPC-Figure_4.pdf Graphic file (type pdf)
 <use Fig/MPC-Figure_4.pdf>
 File: Fig/MPC-Figure_3.pdf Graphic file (type pdf)
 <use Fig/MPC-Figure_3.pdf>
+
+LaTeX Warning: Reference `fig:mpc_geometry' on page 54 undefined on input line 726.
+
+
+LaTeX Warning: Reference `fig:mpc_geometry' on page 54 undefined on input line 726.
+
+
+LaTeX Warning: Hyper reference `fig:mpc_geometry_a' on page 54 undefined on input line 726.
+
+
+LaTeX Warning: Reference `sub@fig:mpc_geometry_a' on page 54 undefined on input line 726.
+
+
+LaTeX Warning: Reference `fig:mpc_geometry' on page 54 undefined on input line 726.
+
+
+LaTeX Warning: Hyper reference `fig:mpc_geometry_b' on page 54 undefined on input line 726.
+
+
+LaTeX Warning: Reference `sub@fig:mpc_geometry_b' on page 54 undefined on input line 726.
+
+
+LaTeX Warning: Reference `fig:mpc_compression' on page 54 undefined on input line 731.
+
+
+LaTeX Warning: Hyper reference `fig:mpc_compression_a' on page 54 undefined on input line 731.
+
+
+LaTeX Warning: Reference `sub@fig:mpc_compression_a' on page 54 undefined on input line 731.
+
+
+LaTeX Warning: Reference `fig:mpc_compression' on page 54 undefined on input line 731.
+
+
+LaTeX Warning: Hyper reference `fig:mpc_compression_b' on page 54 undefined on input line 731.
+
+
+LaTeX Warning: Reference `sub@fig:mpc_compression_b' on page 54 undefined on input line 731.
+
 File: Fig/MPC-Figure_7.pdf Graphic file (type pdf)
 <use Fig/MPC-Figure_7.pdf>
 File: Fig/MPC-Figure_8.pdf Graphic file (type pdf)
@@ -2108,10 +2673,79 @@ File: Fig/MPC-Figure_8.pdf Graphic file (type pdf)
 [55]
 第5章
 
+Package natbib Warning: Citation `RN563' on page 56 undefined on input line 7.
+
+
+Package natbib Warning: Citation `RN2036' on page 56 undefined on input line 14.
+
+
+Package natbib Warning: Citation `RN1623' on page 56 undefined on input line 16.
+
+
+Package natbib Warning: Citation `RN2118' on page 56 undefined on input line 16.
+
+
+Package natbib Warning: Citation `RN2120' on page 56 undefined on input line 16.
+
+
+Package natbib Warning: Citation `RN568' on page 56 undefined on input line 16.
+
+
+Package natbib Warning: Citation `RN2075' on page 56 undefined on input line 16.
+
+
+Package natbib Warning: Citation `RN1656' on page 56 undefined on input line 18.
+
+
+Package natbib Warning: Citation `RN897' on page 56 undefined on input line 18.
+
+
+Package natbib Warning: Citation `RN2050' on page 56 undefined on input line 18.
+
+
+Package natbib Warning: Citation `RN2049' on page 56 undefined on input line 18.
+
+
+Package natbib Warning: Citation `RN2037' on page 56 undefined on input line 18.
+
+
+Package natbib Warning: Citation `RN127' on page 56 undefined on input line 18.
+
+
+Package natbib Warning: Citation `RN2038' on page 56 undefined on input line 18.
+
+
+Package natbib Warning: Citation `RN2040' on page 56 undefined on input line 18.
+
+
+Package natbib Warning: Citation `RN2042' on page 56 undefined on input line 18.
+
+
+Package natbib Warning: Citation `RN2041' on page 56 undefined on input line 18.
+
+
+Package natbib Warning: Citation `RN913' on page 56 undefined on input line 18.
+
+
+Package natbib Warning: Citation `RN1809' on page 56 undefined on input line 18.
+
+
+Package natbib Warning: Citation `RN247' on page 56 undefined on input line 18.
+
+
 
 [56
 
 ]
+
+LaTeX Warning: Reference `fig4-5' on page 57 undefined on input line 26.
+
+
+LaTeX Warning: Hyper reference `fig4' on page 57 undefined on input line 26.
+
+
+LaTeX Warning: Reference `sub@fig4' on page 57 undefined on input line 26.
+
 File: Fig/Fig04.pdf Graphic file (type pdf)
 <use Fig/Fig04.pdf>
 File: Fig/Fig05.pdf Graphic file (type pdf)
@@ -2120,6 +2754,18 @@ File: Fig/Fig05.pdf Graphic file (type pdf)
 Overfull \hbox (29.42764pt too wide) in paragraph at lines 38--39
  [][] 
  []
+
+
+Package natbib Warning: Citation `RN568' on page 57 undefined on input line 42.
+
+
+Package natbib Warning: Citation `RN568' on page 57 undefined on input line 42.
+
+
+Package natbib Warning: Citation `RN568' on page 57 undefined on input line 42.
+
+
+Package natbib Warning: Citation `RN568' on page 57 undefined on input line 42.
 
 
 
@@ -2132,15 +2778,60 @@ File: Fig/Fig06-3.pdf Graphic file (type pdf)
 <use Fig/Fig06-3.pdf>
 
 
+LaTeX Warning: Reference `fig06' on page 58 undefined on input line 123.
+
+
+LaTeX Warning: Reference `fig4-5' on page 58 undefined on input line 125.
+
+
+LaTeX Warning: Hyper reference `fig5' on page 58 undefined on input line 125.
+
+
+LaTeX Warning: Reference `sub@fig5' on page 58 undefined on input line 125.
+
+
+
 [58]
 
 [59]
+
+LaTeX Warning: Reference `fig4-5' on page 60 undefined on input line 130.
+
+
+LaTeX Warning: Hyper reference `fig5' on page 60 undefined on input line 130.
+
+
+LaTeX Warning: Reference `sub@fig5' on page 60 undefined on input line 130.
+
+
+Package natbib Warning: Citation `RN94' on page 60 undefined on input line 139.
+
+
 
 [60]
 File: Fig/Fig18-1.pdf Graphic file (type pdf)
 <use Fig/Fig18-1.pdf>
 File: Fig/Fig18-2.pdf Graphic file (type pdf)
 <use Fig/Fig18-2.pdf>
+
+
+LaTeX Warning: Reference `fig18' on page 61 undefined on input line 200.
+
+
+LaTeX Warning: Hyper reference `fig18a' on page 61 undefined on input line 200.
+
+
+LaTeX Warning: Reference `sub@fig18a' on page 61 undefined on input line 200.
+
+
+LaTeX Warning: Reference `fig18' on page 61 undefined on input line 202.
+
+
+LaTeX Warning: Hyper reference `fig18b' on page 61 undefined on input line 202.
+
+
+LaTeX Warning: Reference `sub@fig18b' on page 61 undefined on input line 202.
+
 
 
 [61]
@@ -2150,7 +2841,45 @@ File: Fig/Fig20.png Graphic file (type bmp)
 <Fig/Fig20.png>
 
 
+LaTeX Warning: Reference `fig19-20' on page 62 undefined on input line 236.
+
+
+LaTeX Warning: Hyper reference `fig19' on page 62 undefined on input line 236.
+
+
+LaTeX Warning: Reference `sub@fig19' on page 62 undefined on input line 236.
+
+
+LaTeX Warning: Reference `fig19-20' on page 62 undefined on input line 238.
+
+
+LaTeX Warning: Hyper reference `fig20' on page 62 undefined on input line 238.
+
+
+LaTeX Warning: Reference `sub@fig20' on page 62 undefined on input line 238.
+
+
+
 [62]
+
+LaTeX Warning: Reference `fig21-22' on page 63 undefined on input line 252.
+
+
+LaTeX Warning: Hyper reference `fig21' on page 63 undefined on input line 252.
+
+
+LaTeX Warning: Reference `sub@fig21' on page 63 undefined on input line 252.
+
+
+LaTeX Warning: Reference `fig21-22' on page 63 undefined on input line 254.
+
+
+LaTeX Warning: Hyper reference `fig22' on page 63 undefined on input line 254.
+
+
+LaTeX Warning: Reference `sub@fig22' on page 63 undefined on input line 254.
+
+
 
 [63]
 File: Fig/Fig21.png Graphic file (type bmp)
@@ -2163,9 +2892,61 @@ File: Fig/Fig24.5.pdf Graphic file (type pdf)
 <use Fig/Fig24.5.pdf>
 
 
+LaTeX Warning: Reference `fig24-24.5' on page 64 undefined on input line 305.
+
+
+
 [64]
 
 [65]
+
+LaTeX Warning: Reference `fig24-24.5' on page 66 undefined on input line 313.
+
+
+LaTeX Warning: Hyper reference `fig24.5' on page 66 undefined on input line 313.
+
+
+LaTeX Warning: Reference `sub@fig24.5' on page 66 undefined on input line 313.
+
+
+LaTeX Warning: Reference `fig27' on page 66 undefined on input line 318.
+
+
+LaTeX Warning: Reference `fig27' on page 66 undefined on input line 320.
+
+
+LaTeX Warning: Hyper reference `fig27a' on page 66 undefined on input line 320.
+
+
+LaTeX Warning: Reference `sub@fig27a' on page 66 undefined on input line 320.
+
+
+LaTeX Warning: Reference `fig27' on page 66 undefined on input line 320.
+
+
+LaTeX Warning: Hyper reference `fig27b' on page 66 undefined on input line 320.
+
+
+LaTeX Warning: Reference `sub@fig27b' on page 66 undefined on input line 320.
+
+
+LaTeX Warning: Reference `fig27' on page 66 undefined on input line 320.
+
+
+LaTeX Warning: Hyper reference `fig27c' on page 66 undefined on input line 320.
+
+
+LaTeX Warning: Reference `sub@fig27c' on page 66 undefined on input line 320.
+
+
+LaTeX Warning: Reference `fig27' on page 66 undefined on input line 320.
+
+
+LaTeX Warning: Hyper reference `fig27d' on page 66 undefined on input line 320.
+
+
+LaTeX Warning: Reference `sub@fig27d' on page 66 undefined on input line 320.
+
 File: Fig/Fig27-1.png Graphic file (type bmp)
 <Fig/Fig27-1.png>
 File: Fig/Fig27-2.png Graphic file (type bmp)
@@ -2179,10 +2960,46 @@ File: Fig/Fig28.png Graphic file (type bmp)
 File: Fig/Fig28.6.png Graphic file (type bmp)
 <Fig/Fig28.6.png>
 
+LaTeX Warning: Reference `fig27' on page 66 undefined on input line 382.
+
+
+LaTeX Warning: Hyper reference `fig27d' on page 66 undefined on input line 382.
+
+
+LaTeX Warning: Reference `sub@fig27d' on page 66 undefined on input line 382.
+
+
+LaTeX Warning: Reference `fig28' on page 66 undefined on input line 382.
+
+
+LaTeX Warning: Reference `Fig28.6' on page 66 undefined on input line 384.
+
+
 
 [66]
 
 [67]
+
+LaTeX Warning: Reference `fig45' on page 68 undefined on input line 386.
+
+
+LaTeX Warning: Reference `fig45' on page 68 undefined on input line 386.
+
+
+LaTeX Warning: Hyper reference `fig45a' on page 68 undefined on input line 386.
+
+
+LaTeX Warning: Reference `sub@fig45a' on page 68 undefined on input line 386.
+
+
+LaTeX Warning: Reference `fig45' on page 68 undefined on input line 386.
+
+
+LaTeX Warning: Hyper reference `fig45d' on page 68 undefined on input line 386.
+
+
+LaTeX Warning: Reference `sub@fig45d' on page 68 undefined on input line 386.
+
 File: Fig/Fig45-1.png Graphic file (type bmp)
 <Fig/Fig45-1.png>
 File: Fig/Fig45-2.png Graphic file (type bmp)
@@ -2196,6 +3013,45 @@ File: Fig/Fig45-4.png Graphic file (type bmp)
 [68]
 
 [69]
+
+LaTeX Warning: Reference `fig29' on page 70 undefined on input line 426.
+
+
+LaTeX Warning: Reference `fig29' on page 70 undefined on input line 430.
+
+
+LaTeX Warning: Hyper reference `fig29a' on page 70 undefined on input line 430.
+
+
+LaTeX Warning: Reference `sub@fig29a' on page 70 undefined on input line 430.
+
+
+LaTeX Warning: Reference `fig29' on page 70 undefined on input line 432.
+
+
+LaTeX Warning: Hyper reference `fig29b' on page 70 undefined on input line 432.
+
+
+LaTeX Warning: Reference `sub@fig29b' on page 70 undefined on input line 432.
+
+
+LaTeX Warning: Reference `fig29' on page 70 undefined on input line 432.
+
+
+LaTeX Warning: Hyper reference `fig29c' on page 70 undefined on input line 432.
+
+
+LaTeX Warning: Reference `sub@fig29c' on page 70 undefined on input line 432.
+
+
+LaTeX Warning: Reference `fig29' on page 70 undefined on input line 434.
+
+
+LaTeX Warning: Hyper reference `fig29d' on page 70 undefined on input line 434.
+
+
+LaTeX Warning: Reference `sub@fig29d' on page 70 undefined on input line 434.
+
 File: Fig/Fig29-1.pdf Graphic file (type pdf)
 <use Fig/Fig29-1.pdf>
 File: Fig/Fig29-2.pdf Graphic file (type pdf)
@@ -2204,6 +3060,36 @@ File: Fig/Fig29-3.pdf Graphic file (type pdf)
 <use Fig/Fig29-3.pdf>
 File: Fig/Fig29-4.pdf Graphic file (type pdf)
 <use Fig/Fig29-4.pdf>
+
+LaTeX Warning: Reference `fig19-20' on page 70 undefined on input line 487.
+
+
+LaTeX Warning: Hyper reference `fig20' on page 70 undefined on input line 487.
+
+
+LaTeX Warning: Reference `sub@fig20' on page 70 undefined on input line 487.
+
+
+LaTeX Warning: Reference `fig45' on page 70 undefined on input line 487.
+
+
+LaTeX Warning: Hyper reference `fig45c' on page 70 undefined on input line 487.
+
+
+LaTeX Warning: Reference `sub@fig45c' on page 70 undefined on input line 487.
+
+
+LaTeX Warning: Hyper reference `fig45a' on page 70 undefined on input line 487.
+
+
+LaTeX Warning: Reference `sub@fig45a' on page 70 undefined on input line 487.
+
+
+LaTeX Warning: Hyper reference `fig45b' on page 70 undefined on input line 487.
+
+
+LaTeX Warning: Reference `sub@fig45b' on page 70 undefined on input line 487.
+
 
 
 [70]
@@ -2236,6 +3122,9 @@ File: Fig/Fig29-4.pdf Graphic file (type pdf)
 
  (./Tex/06.Appendix.tex
 附录 \rmfamily 一
+
+LaTeX Warning: Reference `tab:obj_appendix_prescription' on page 80 undefined on input line 43.
+
 File: Fig/Fig-Obj-FFTPSF截面图.pdf Graphic file (type pdf)
 <use Fig/Fig-Obj-FFTPSF截面图.pdf>
 File: Fig/Fig-Obj-轴向像差.pdf Graphic file (type pdf)
@@ -2248,8 +3137,15 @@ File: Fig/Fig-Obj-轴向像差.pdf Graphic file (type pdf)
 
 ]
 
+LaTeX Warning: Reference `fig_obj_psf_lsa' on page 81 undefined on input line 69.
+
+
+
 [81]
 附录 \rmfamily 二
+
+LaTeX Warning: Reference `fig41-42' on page 82 undefined on input line 80.
+
 File: Fig/Fig41.pdf Graphic file (type pdf)
 <use Fig/Fig41.pdf>
 File: Fig/Fig42.png Graphic file (type bmp)
@@ -2260,13 +3156,59 @@ File: Fig/Fig42.png Graphic file (type bmp)
 
 ]
 
+LaTeX Warning: Reference `fig42.56' on page 83 undefined on input line 131.
+
+
+LaTeX Warning: Hyper reference `fig42.5' on page 83 undefined on input line 131.
+
+
+LaTeX Warning: Reference `sub@fig42.5' on page 83 undefined on input line 131.
+
+
+
 [83]
+
+LaTeX Warning: Reference `fig42.56' on page 84 undefined on input line 156.
+
+
+LaTeX Warning: Hyper reference `fig42.6' on page 84 undefined on input line 156.
+
+
+LaTeX Warning: Reference `sub@fig42.6' on page 84 undefined on input line 156.
+
+
+LaTeX Warning: Reference `fig42.56' on page 84 undefined on input line 158.
+
+
+LaTeX Warning: Hyper reference `fig42.6' on page 84 undefined on input line 158.
+
+
+LaTeX Warning: Reference `sub@fig42.6' on page 84 undefined on input line 158.
+
 File: Fig/Fig42.5.pdf Graphic file (type pdf)
 <use Fig/Fig42.5.pdf>
 File: Fig/Fig42.6.pdf Graphic file (type pdf)
 <use Fig/Fig42.6.pdf>
+
+Package natbib Warning: Citation `thorlabs' on page 84 undefined on input line 174.
+
+
+Package natbib Warning: Citation `thorlabs' on page 84 undefined on input line 174.
+
+
+Package natbib Warning: Citation `thorlabs' on page 84 undefined on input line 174.
+
+
+Package natbib Warning: Citation `thorlabs' on page 84 undefined on input line 174.
+
 File: Fig/MPC-Figure_6.pdf Graphic file (type pdf)
 <use Fig/MPC-Figure_6.pdf>
+
+LaTeX Warning: Reference `fig:mpc_appendix_spm' on page 84 undefined on input line 202.
+
+
+LaTeX Warning: Reference `fig:mpc_appendix_dispersion' on page 84 undefined on input line 204.
+
 
 
 [84]
@@ -2281,6 +3223,24 @@ File: Fig/Fig58.pdf Graphic file (type pdf)
 File: Fig/Fig60.pdf Graphic file (type pdf)
 <use Fig/Fig60.pdf>
 
+LaTeX Warning: Reference `fig58-59' on page 86 undefined on input line 252.
+
+
+LaTeX Warning: Hyper reference `fig58' on page 86 undefined on input line 252.
+
+
+LaTeX Warning: Reference `sub@fig58' on page 86 undefined on input line 252.
+
+
+LaTeX Warning: Reference `fig58-59' on page 86 undefined on input line 254.
+
+
+LaTeX Warning: Hyper reference `fig60' on page 86 undefined on input line 254.
+
+
+LaTeX Warning: Reference `sub@fig60' on page 86 undefined on input line 254.
+
+
 
 [86
 
@@ -2291,11 +3251,75 @@ File: Fig/Fig59-2.pdf Graphic file (type pdf)
 <use Fig/Fig59-2.pdf>
 
 
+LaTeX Warning: Reference `fig59' on page 87 undefined on input line 283.
+
+
+LaTeX Warning: Hyper reference `fig59a' on page 87 undefined on input line 283.
+
+
+LaTeX Warning: Reference `sub@fig59a' on page 87 undefined on input line 283.
+
+
+LaTeX Warning: Reference `fig59' on page 87 undefined on input line 285.
+
+
+LaTeX Warning: Hyper reference `fig59b' on page 87 undefined on input line 285.
+
+
+LaTeX Warning: Reference `sub@fig59b' on page 87 undefined on input line 285.
+
+
+
 [87]
+
+LaTeX Warning: Reference `fig61' on page 88 undefined on input line 293.
+
+
+LaTeX Warning: Hyper reference `fig61a' on page 88 undefined on input line 293.
+
+
+LaTeX Warning: Reference `sub@fig61a' on page 88 undefined on input line 293.
+
+
+LaTeX Warning: Reference `fig61' on page 88 undefined on input line 293.
+
+
+LaTeX Warning: Hyper reference `fig61b' on page 88 undefined on input line 293.
+
+
+LaTeX Warning: Reference `sub@fig61b' on page 88 undefined on input line 293.
+
 File: Fig/Fig61-1.png Graphic file (type bmp)
 <Fig/Fig61-1.png>
 File: Fig/Fig61-2.png Graphic file (type bmp)
 <Fig/Fig61-2.png>
+
+LaTeX Warning: Reference `fig:fig49_52_62' on page 88 undefined on input line 317.
+
+
+LaTeX Warning: Hyper reference `fig:fig49' on page 88 undefined on input line 317.
+
+
+LaTeX Warning: Reference `sub@fig:fig49' on page 88 undefined on input line 317.
+
+
+LaTeX Warning: Reference `fig:fig49_52_62' on page 88 undefined on input line 317.
+
+
+LaTeX Warning: Hyper reference `fig:fig62a' on page 88 undefined on input line 317.
+
+
+LaTeX Warning: Reference `sub@fig:fig62a' on page 88 undefined on input line 317.
+
+
+LaTeX Warning: Reference `fig:fig49_52_62' on page 88 undefined on input line 317.
+
+
+LaTeX Warning: Hyper reference `fig:fig62b' on page 88 undefined on input line 317.
+
+
+LaTeX Warning: Reference `sub@fig:fig62b' on page 88 undefined on input line 317.
+
 
 
 [88]
@@ -2309,13 +3333,56 @@ File: Fig/Fig62-2.png Graphic file (type bmp)
 <Fig/Fig62-2.png>
 
 
+LaTeX Warning: Reference `fig:fig49_52_62' on page 89 undefined on input line 361.
+
+
+LaTeX Warning: Hyper reference `fig:fig52' on page 89 undefined on input line 361.
+
+
+LaTeX Warning: Reference `sub@fig:fig52' on page 89 undefined on input line 361.
+
+
+
 [89]
+
+LaTeX Warning: Reference `fig:fig49_52_62' on page 90 undefined on input line 363.
+
+
+LaTeX Warning: Hyper reference `fig:fig62b' on page 90 undefined on input line 363.
+
+
+LaTeX Warning: Reference `sub@fig:fig62b' on page 90 undefined on input line 363.
+
+
+LaTeX Warning: Reference `fig:fig49_52_62' on page 90 undefined on input line 365.
+
+
+LaTeX Warning: Hyper reference `fig:fig62a' on page 90 undefined on input line 365.
+
+
+LaTeX Warning: Reference `sub@fig:fig62a' on page 90 undefined on input line 365.
+
 File: Fig/Fig53-1.png Graphic file (type bmp)
 <Fig/Fig53-1.png>
 File: Fig/Fig53-2.png Graphic file (type bmp)
 <Fig/Fig53-2.png>
 File: Fig/Fig53-3.png Graphic file (type bmp)
 <Fig/Fig53-3.png>
+
+LaTeX Warning: Reference `fig53' on page 90 undefined on input line 398.
+
+
+LaTeX Warning: Hyper reference `fig53a' on page 90 undefined on input line 398.
+
+
+LaTeX Warning: Reference `sub@fig53a' on page 90 undefined on input line 398.
+
+
+LaTeX Warning: Hyper reference `fig53c' on page 90 undefined on input line 398.
+
+
+LaTeX Warning: Reference `sub@fig53c' on page 90 undefined on input line 398.
+
 
 
 [90]
@@ -2337,15 +3404,98 @@ File: Fig/Fig56-4.png Graphic file (type bmp)
 <Fig/Fig56-4.png>
 
 
+LaTeX Warning: Reference `fig56' on page 91 undefined on input line 438.
+
+
+LaTeX Warning: Reference `fig56' on page 91 undefined on input line 438.
+
+
+LaTeX Warning: Hyper reference `fig56a' on page 91 undefined on input line 438.
+
+
+LaTeX Warning: Reference `sub@fig56a' on page 91 undefined on input line 438.
+
+
+LaTeX Warning: Reference `fig56' on page 91 undefined on input line 438.
+
+
+LaTeX Warning: Hyper reference `fig56b' on page 91 undefined on input line 438.
+
+
+LaTeX Warning: Reference `sub@fig56b' on page 91 undefined on input line 438.
+
+
+LaTeX Warning: Reference `fig56' on page 91 undefined on input line 438.
+
+
+LaTeX Warning: Hyper reference `fig56c' on page 91 undefined on input line 438.
+
+
+LaTeX Warning: Reference `sub@fig56c' on page 91 undefined on input line 438.
+
+
+LaTeX Warning: Reference `fig56' on page 91 undefined on input line 438.
+
+
+LaTeX Warning: Hyper reference `fig56d' on page 91 undefined on input line 438.
+
+
+LaTeX Warning: Reference `sub@fig56d' on page 91 undefined on input line 438.
+
+
+LaTeX Warning: Reference `fig56' on page 91 undefined on input line 440.
+
+
+LaTeX Warning: Hyper reference `fig56b' on page 91 undefined on input line 440.
+
+
+LaTeX Warning: Reference `sub@fig56b' on page 91 undefined on input line 440.
+
+
+LaTeX Warning: Reference `fig56' on page 91 undefined on input line 440.
+
+
+LaTeX Warning: Hyper reference `fig56c' on page 91 undefined on input line 440.
+
+
+LaTeX Warning: Reference `sub@fig56c' on page 91 undefined on input line 440.
+
+
+LaTeX Warning: Reference `fig56' on page 91 undefined on input line 442.
+
+
+LaTeX Warning: Hyper reference `fig56d' on page 91 undefined on input line 442.
+
+
+LaTeX Warning: Reference `sub@fig56d' on page 91 undefined on input line 442.
+
+
+
 [91]
 
 [92]
 附录 \rmfamily 四
 
+LaTeX Warning: Reference `Chap:5' on page 93 undefined on input line 473.
+
+
+LaTeX Warning: Reference `Chap:5' on page 93 undefined on input line 477.
+
+
 
 [93
 
-])
+]
+
+Package natbib Warning: Citation `Mitutoyo20xSpec' on page 94 undefined on input line 481.
+
+
+Package natbib Warning: Citation `Yu2024Cousa' on page 94 undefined on input line 481.
+
+
+LaTeX Warning: Reference `Chap:5' on page 94 undefined on input line 483.
+
+)
 
 [94] (./Tex/07.Backmatter.tex
 
@@ -2369,21 +3519,42 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[apptab] on input line 85.
 See the caption package documentation for explanation.
 
-(./Thesis.aux (./Tex/06.Appendix.aux))
+
+Package natbib Warning: There were undefined citations.
+
+(./Thesis.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+(./Tex/06.Appendix.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BD7CBC61072BCA447A7C2A5A5D32E4D2;15445.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  BD7CBC61072BCA447A7C2A5A5D32E4D2;15445.
  ) 
 Here is how much of TeX's memory you used:
- 41546 strings out of 468527
- 850425 string characters out of 5445410
- 1382371 words of memory out of 5000000
- 69018 multiletter control sequences out of 15000+600000
+ 41473 strings out of 468527
+ 847598 string characters out of 5445410
+ 1354685 words of memory out of 5000000
+ 68953 multiletter control sequences out of 15000+600000
  640377 words of font info for 186 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  118i,12n,125p,1276b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Thesis.pdf (112 pages).
+Output written on Thesis.pdf (107 pages).

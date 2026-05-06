@@ -1,0 +1,52 @@
+%---------------------------------------------------------------------------%
+%->> Frontmatter
+%---------------------------------------------------------------------------%
+%-
+%-> 生成封面
+%-
+
+\maketitle% 生成中文封面
+\MAKETITLE% 生成英文封面
+%-
+%-> 作者声明
+%-
+\makedeclaration% 生成声明页
+%-
+%-> 中文摘要
+%-
+\intobmk\chapter*{摘\quad 要}% 显示在书签但不显示在目录
+\setcounter{page}{1}% 开始页码
+\pagenumbering{Roman}% 页码符号
+
+多光子荧光寿命成像技术融合了多光子显微成像的深层组织穿透能力、三维光学切片能力以及荧光寿命成像对探针浓度、激发功率和组织衰减不敏感的定量优势，在活体神经成像、功能表征和复杂微环境分析中具有重要应用价值。围绕活体生物成像对高分辨率、高灵敏度和高时序精度的需求，本文系统开展了共聚焦与多光子荧光寿命成像系统的理论分析、装置搭建、同步采集和寿命拟合研究。
+
+首先，本文从点扫描显微成像中的速度、采样分辨率、点扩散函数及有效激发体积出发，分析了扫描视场、像素停留时间、物镜参数与系统成像性能之间的关系，并对点扫描显微系统中的典型扫描策略进行了比较。在此基础上，结合多光子激发和荧光寿命成像需求，对显微系统的扫描结构与光学参数进行了设计分析，为后续系统实现提供了理论依据。
+
+其次，本文完成了激光扫描共聚焦荧光寿命显微镜的预研搭建，给出了多色激发与系统表征方案，并围绕荧光寿命成像的实现需求，建立了仪器响应函数标定、同步延迟校准及数据采集流程。针对多光子成像，设计并搭建了两套多光子显微系统，实现了双光子与三光子激发条件下的成像光路配置；同时针对飞秒脉冲在显微光路中受到群速度色散影响而引起的脉宽展宽问题，设计了基于棱镜对的脉冲压缩与色散补偿装置，并进一步分析了多通腔压缩方案，为提升多光子激发效率提供了技术支撑。
+
+最后，本文围绕荧光寿命成像系统实现了基于时间相关单光子计数和基于单光子计数采样的两类数据处理流程，分析了单路同步与三路同步两种采集策略的特点，并完成了荧光寿命图像重建与逐像素寿命拟合。以荧光微球样品为对象，获得了清晰的荧光寿命成像结果。
+
+本文的工作完成了从扫描理论分析、光机系统设计、多光子激发与脉冲压缩，到 FLIM 采集和数据处理的整体技术链路构建，为后续面向活体神经活动记录和多模态功能成像的系统优化与应用拓展奠定了基础。
+
+\keywords{多光子显微成像，荧光寿命成像，时间相关单光子计数，脉冲压缩，色散补偿}% 中文关键词
+%-
+%-> 英文摘要
+%-
+\intobmk\chapter*{Abstract}% 显示在书签但不显示在目录
+
+Multiphoton fluorescence lifetime imaging integrates the advantages of multiphoton microscopy, including deep tissue penetration and intrinsic three-dimensional optical sectioning, with the quantitative robustness of fluorescence lifetime imaging, which is relatively insensitive to fluorophore concentration, excitation power, and tissue attenuation. Owing to these merits, it has become an important tool for in vivo neural imaging, functional characterization, and the analysis of complex biological microenvironments. In response to the requirements of high resolution, high sensitivity, and precise temporal measurement in biological imaging, this thesis systematically investigates the theoretical analysis, system implementation, synchronized acquisition, and lifetime fitting of confocal and multiphoton fluorescence lifetime imaging systems.
+
+First, the thesis analyzes the relationships among scan speed, digital sampling resolution, point spread function, effective excitation volume, field of view, pixel dwell time, and objective parameters in point-scanning microscopy. Typical scanning strategies are compared, and the optical and scanning configurations required for multiphoton excitation and fluorescence lifetime imaging are further discussed. These analyses provide the theoretical foundation for the subsequent system design and implementation.
+
+Second, a laser-scanning confocal fluorescence lifetime imaging platform was preliminarily established, including multicolor excitation and system characterization schemes. For fluorescence lifetime imaging, instrument response function calibration, synchronization delay correction, and data acquisition procedures were developed. Furthermore, two multiphoton microscopy systems were designed and constructed to support both two-photon and three-photon excitation. To address femtosecond pulse broadening caused by group velocity dispersion in the optical path, a prism-pair-based pulse compression and dispersion compensation module was designed and implemented. In addition, a multi-pass-cell compression scheme was analyzed to further improve multiphoton excitation efficiency.
+
+Finally, two fluorescence lifetime imaging data-processing pipelines were developed, including a time-correlated single-photon counting (TCSPC)-based approach and a single-photon-counting sampling approach. The characteristics of single-channel synchronization and three-channel synchronization strategies were analyzed, and fluorescence lifetime image reconstruction together with pixel-wise lifetime fitting was realized. Experiments using fluorescent microspheres demonstrated clear lifetime imaging results. The optimized system successfully resolved microsphere contours and yielded fitted lifetime values consistent with those obtained from commercial software, thereby verifying the feasibility of the developed system for fluorescence lifetime imaging.
+
+In summary, this work establishes an integrated technical framework covering scanning theory, opto-mechanical system design, multiphoton excitation, pulse compression, FLIM acquisition, and data processing. It provides a basis for further optimization and future applications in in vivo neural activity recording and multimodal functional imaging.
+
+\KEYWORDS{Multiphoton Microscopy, Fluorescence Lifetime Imaging, Time-Correlated Single-Photon Counting, Pulse Compression, Dispersion Compensation}% 英文关键词
+
+\pagestyle{enfrontmatterstyle}%
+\cleardoublepage\pagestyle{frontmatterstyle}%
+
+%---------------------------------------------------------------------------%
