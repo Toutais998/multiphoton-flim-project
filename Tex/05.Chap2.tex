@@ -7,7 +7,7 @@
 点扫描显微镜通常包括激光扫描共聚焦显微镜、多光子显微镜等形式。其主要特点在于：一方面，通过逐点激发和逐点探测，可以有效抑制离焦背景，提高成像对比度，并结合针孔或非线性激发实现三维光学切片；另一方面，由于图像是通过逐点累积形成的，单个像素能够获得的信号量受像素停留时间限制，因此系统帧率、视场大小与信噪比之间往往需要进行折中设计。
 
 \subsection{点扫描的单像素停留时间}\label{2.1.1}
-与宽场成像方式不同，点扫描成像采用逐点或逐像素扫描的方式获取图像。在理想情况下，若一帧图像的总采集时间为 $T_{\mathrm{frame}}$，图像总像素数为 $N$，则单个像素的平均停留时间可表示为
+与宽场成像方式不同，点扫描成像采用逐点或逐像素扫描的方式获取图像。在理想情况下，若一帧图像的总采集时间为 $T_{\mathrm{frame}}$，图像总像素数为 $N$，则单个像素的平均停留时间可表示为:
 
 \begin{equation}
 T_0=\frac{T_{\mathrm{frame}}}{N}
@@ -25,7 +25,7 @@ T_0^{(\mathrm{widefield})}=T_{\mathrm{frame}}
 
 以 $512\times512$ 像素图像为例，在保持相同帧率条件下，宽场成像中单个像素的有效曝光时间约为点扫描模式的$512\times512=2.62\times10^{5}$倍。由此可见，点扫描成像中单像素可积累信号的时间远短于宽场成像，因此更容易受到光子统计噪声的限制。
 
-在点扫描成像中，若不区分具体激发机制，仅从经验上讨论单像素信号强度与停留时间的关系，则单个像素获得的总信号可写为
+在点扫描成像中，若不区分具体激发机制，仅从经验上讨论单像素信号强度与停留时间的关系，则单个像素获得的总信号可写为:
 
 \begin{equation}
 I \propto \eta \,\beta \,T_0\, S_{\mathrm{exc}}
@@ -47,7 +47,7 @@ T_{0,\min}\gtrsim \frac{1}{f}
 
 其中 $f$ 为激光重复频率。实际上，为了获得稳定的荧光统计信号，通常需要一个像素内包含多个激发脉冲。因此，在提高成像速度的同时，常需要综合优化激光重复频率、扫描速度与像素数等参数。
 
-此外，在帧率保持不变的条件下，如果增大成像幅面尺寸(即视场范围)，同样会导致单个像素的停留时间减少。以Supercontuum 40MHz白光超连续皮秒激光器为例，在Scanimage软件中不同视场尺寸与帧率组合条件下，对应的单像素停留时间以及每个像素所包含的脉冲数量如表\ref{Table2.1}所示。
+此外，在帧率保持不变的条件下，如果增大成像幅面尺寸(即视场范围)，同样会导致单个像素的停留时间减少。以白光超连续谱激光器(Supercontinuumm, NKT Photonics) 40MHz为例，在Scanimage软件(MBF Bioscience)中不同视场尺寸与帧率组合条件下，对应的单像素停留时间以及每个像素所包含的脉冲数量如表\ref{Table2.1}所示。
 
 \begin{table}[htbp]
 \bicaption{40MHz激发频率下不同扫描速度和数字化像素数对应的单像素时间以及单像素包含脉冲数关系}{Relationship between pixel dwell time and the number of excitation pulses per pixel at 40~MHz for different scan speeds and digitized pixel numbers}
@@ -130,7 +130,7 @@ T_{0,\min}\gtrsim \frac{1}{f}
 \subsection{点扫描成像的数字采样分辨率}\label{2.1.2}
 在点扫描显微成像系统的数字化采样过程中，需要满足香农-奈奎斯特采样定理。即便显微镜本身具有较高的光学分辨率，在数字成像阶段，像素尺寸仍需满足$D_{pixel}<1/2D_{sample}$才能有效分辨目标结构。换言之，数字像素尺寸必须小于待观测结构尺寸的一半。
 
-因此，在相同视场范围(field of view，FOV)条件下，虽然通过减少像素数量可以提高扫描速度，但同时也会降低图像的采样分辨率，从而影响最终成像质量。
+因此，在相同视场范围(Field of View，FOV)条件下，虽然通过减少像素数量可以提高扫描速度，但同时也会降低图像的采样分辨率，从而影响最终成像质量。
 
 \begin{figure}[htbp]
     \centering
@@ -178,13 +178,14 @@ T_{0,\min}\gtrsim \frac{1}{f}
 
 
 \subsection{线性点扩散函数与多光子有效激发体积}\label{2.2.1}
-在激发光束充分填充(Overfilling)物镜后孔径且系统像差较小的近似条件下，焦点附近的光强分布可表示为时间项与空间项的乘积形式，即
+在激发光束充分填充(Overfilling)物镜后孔径且系统像差较小的近似条件下，焦点附近的光强分布可表示为时间项与空间项的乘积形式，即:
+
 \begin{equation}
   I(\mathbf{r},t)=I_{0}(t)\,h(\mathbf{r})
   \label{eq:psf_separation}
 \end{equation}
 
-其中 $\mathbf{r}=(x,y,z)$ 为空间坐标，$I_{0}(t)$ 表示与入射功率相关的时间项，$h(\mathbf{r})$ 表示归一化的空间强度分布，并满足
+其中 $\mathbf{r}=(x,y,z)$ 为空间坐标，$I_{0}(t)$ 表示与入射功率相关的时间项，$h(\mathbf{r})$ 表示归一化的空间强度分布，并满足:
 
 \begin{equation}
   0\le h(\mathbf{r})\le 1,\qquad h(\mathbf{0})=1
@@ -192,7 +193,7 @@ T_{0,\min}\gtrsim \frac{1}{f}
 
 这里的 $h(\mathbf{r})$ 即线性激发条件下的强度型点扩散函数。
 
-对于衍射受限聚焦系统，焦点处峰值强度与入射功率、波长及物镜数值孔径有关。在近似讨论中，常可写为
+对于衍射受限聚焦系统，焦点处峰值强度与入射功率、波长及物镜数值孔径有关。在近似讨论中，常可写为:
 
 \begin{equation}
   I_{0}(t)\propto \frac{(NA)^2}{\lambda^2}P(t)
@@ -201,14 +202,14 @@ T_{0,\min}\gtrsim \frac{1}{f}
 
 其中 $NA$ 为物镜数值孔径(Numerical Aperture)，$\lambda$ 为激发波长，$P(t)$ 为入射光功率。需要说明的是，式~(\ref{eq:I0_scaling}) 仅表示峰值光强的标度关系，其具体系数与光束类型、后孔径填充程度以及像差情况有关，因此更适合写成比例关系，而不宜在缺少完整推导时直接写成严格等式。
 
-在线性荧光激发条件下，单位体积内的荧光产生率与局域光强近似成正比，因此实际参与成像的空间权重可写为
+在线性荧光激发条件下，单位体积内的荧光产生率与局域光强近似成正比，因此实际参与成像的空间权重可写为:
 
 \begin{equation}
   S_{1}(\mathbf{r})\propto h(\mathbf{r})
   \label{eq:linear_psf}
 \end{equation}
 
-对于 $m$ 光子激发过程，局域激发概率与光强的 $m$ 次方成正比，因此多光子显微镜中的有效激发分布应写为
+对于 $m$ 光子激发过程，局域激发概率与光强的 $m$ 次方成正比，因此多光子显微镜中的有效激发分布应写为:
 
 \begin{equation}
   S_{m}(\mathbf{r})\propto [I(\mathbf{r},t)]^{m}
@@ -216,14 +217,14 @@ T_{0,\min}\gtrsim \frac{1}{f}
   \label{eq:multiphoton_psf}
 \end{equation}
 
-若仅关注空间分布，则其归一化形式可写为
+若仅关注空间分布，则其归一化形式可写为:
 
 \begin{equation}
   \widetilde{S}_{m}(\mathbf{r})\propto [h(\mathbf{r})]^{m}
   \label{eq:effective_psf}
 \end{equation}
 
-因此，在双光子和三光子情形下分别有
+因此，在双光子和三光子情形下分别有:
 
 \begin{equation}
 \widetilde{S}_{2}(\mathbf{r})\propto [h(\mathbf{r})]^2\qquad
@@ -236,14 +237,16 @@ T_{0,\min}\gtrsim \frac{1}{f}
 \begin{equation}
   h(r)\approx \exp\!\left(-\frac{2r^2}{w^2}\right)
   \label{eq:gaussian_psf}
-  \end{equation}
-  则 $m$ 光子有效激发分布满足
-  \begin{equation}
-  [h(r)]^m=\exp\!\left(-\frac{2mr^2}{w^2}\right)
-  \end{equation}
+\end{equation}
 
-因此其特征半径缩小为
-  \begin{equation}
+则 $m$ 光子有效激发分布满足:
+
+\begin{equation}
+  [h(r)]^m=\exp\!\left(-\frac{2mr^2}{w^2}\right)
+\end{equation}
+
+因此其特征半径缩小为:
+\begin{equation}
   w_m=\frac{w}{\sqrt{m}}
   \label{eq:wm_scaling}
 \end{equation}
@@ -281,7 +284,7 @@ T_{0,\min}\gtrsim \frac{1}{f}
   P_{\mathrm{peak}}\propto \frac{P_{\mathrm{avg}}}{f_{\mathrm{rep}}\tau}
   \label{eq:peak_power_scaling}
 \end{equation}
-成正比。因此，多光子荧光信号在标度上可近似写为
+成正比。因此，多光子荧光信号在标度上可近似写为:
 
 \begin{equation}
   F_m \propto \eta\,\phi\,C\,\delta_m
@@ -306,7 +309,7 @@ T_{0,\min}\gtrsim \frac{1}{f}
   \label{eq:gaussian_width_def}
 \end{equation}
 
-其中 $\omega$ 表示光强下降到峰值 $1/e^2$ 时对应的特征半径。对于该定义，FWHM 与 $\omega$ 的关系为
+其中 $\omega$ 表示光强下降到峰值 $1/e^2$ 时对应的特征半径。对于该定义，FWHM 与 $\omega$ 的关系为:
 
 \begin{equation}
   \mathrm{FWHM}=\sqrt{2\ln 2}\,\omega
@@ -315,12 +318,13 @@ T_{0,\min}\gtrsim \frac{1}{f}
 
 需要指出的是，不同文献中也常采用 $1/e$ 半径或标准差等参数表征高斯宽度，因此在比较不同结果时，必须首先确认所采用的宽度定义是否一致。
 
-在多光子显微镜中，由于有效激发分布满足
+在多光子显微镜中，由于有效激发分布满足:
+
 \begin{equation}
   \widetilde S_m(\mathbf r)\propto [h(\mathbf r)]^m
 \end{equation}
 
-若进一步采用高斯近似，则 $m$ 光子激发下的特征宽度相较于线性激发将缩小为原来的 $1/\sqrt m$。因此，对于双光子激发，有
+若进一步采用高斯近似，则 $m$ 光子激发下的特征宽度相较于线性激发将缩小为原来的 $1/\sqrt m$。因此，对于双光子激发，有:
 
 \begin{equation}
   \omega_{xy}^{(2)}=\frac{\omega_{xy}^{(1)}}{\sqrt2} \qquad
@@ -330,7 +334,7 @@ T_{0,\min}\gtrsim \frac{1}{f}
 
 其中 $\omega_{xy}^{(1)}$ 和 $\omega_{z}^{(1)}$ 分别表示线性激发条件下的横向与轴向特征宽度，$\omega_{xy}^{(2)}$ 和 $\omega_{z}^{(2)}$ 则表示双光子激发对应的有效激发宽度。
 
-若采用衍射受限聚焦系统的近似标度关系，并以 $NA_{\mathrm{eff}}$ 表征样品处的有效聚焦能力，则线性激发条件下的横向与轴向宽度通常分别满足
+若采用衍射受限聚焦系统的近似标度关系，并以 $NA_{\mathrm{eff}}$ 表征样品处的有效聚焦能力，则线性激发条件下的横向与轴向宽度通常分别满足:
 
 \begin{equation}
   \omega_{xy}^{(1)} \propto \frac{\lambda}{NA_{\mathrm{eff}}}
@@ -414,7 +418,8 @@ f_{0}=\frac{f_{t0}}{M}
 \label{eq:f0_def}
 \end{equation}
 
-若将物镜与非标准焦距的管透镜 $f_t$ 组合，则系统有效放大倍率变为
+若将物镜与非标准焦距的管透镜 $f_t$ 组合，则系统有效放大倍率变为:
+
 \begin{equation}
 M_{\mathrm{eff}}=\frac{f_t}{f_0}=M\cdot\frac{f_t}{f_{t0}}
 \label{eq:Meff_def}
@@ -422,7 +427,8 @@ M_{\mathrm{eff}}=\frac{f_t}{f_0}=M\cdot\frac{f_t}{f_{t0}}
 
 由此可见，管透镜焦距不仅决定最终放大倍率，也会进一步影响物方视场与扫描映射关系。
 
-本文实验系统实际采用 Olympus 25$\times$/1.05 NA 物镜。Olympus 无穷远校正系统采用标准管透镜焦距 $f_{t0}=180\,\mathrm{mm}$，因此对于 20$\times$ 物镜，其等效焦距约为
+本文实验系统实际采用 Olympus 25$\times$/1.05 NA 物镜。Olympus 无穷远校正系统采用标准管透镜焦距 $f_{t0}=180\,\mathrm{mm}$，因此对于 20$\times$ 物镜，其等效焦距约为:
+
 \begin{equation}
 f_0 \approx \frac{180\,\mathrm{mm}}{25}=7.2\,\mathrm{mm}
 \label{eq:f0_olympus20x}
@@ -453,19 +459,21 @@ Zeiss   & 165 & 20 / 23   & M27 \\ \hline
 \subsection{物镜后孔径、束径填充与有效数值孔径}\label{2.4.2}
 
 对于扫描显微系统，激发光在物镜后焦面附近对应的入瞳区域(通常记作 Back Focal Plane, BFP)上的束径填充情况，直接决定了实际参与聚焦的有效数值孔径。对无穷远校正物镜，可用如下近似关系估算其后孔径等效直径：
+
 \begin{equation}
   D_{\mathrm{BFP}}\approx 2\,\mathrm{NA}\,f_0
   =2\,\mathrm{NA}\,\frac{f_{t0}}{M}.
   \label{eq:Dbfp}
 \end{equation}
 
-对于本文采用的 Olympus 25$\times$/1.05 NA 物镜，由式~(\ref{eq:Dbfp}) 得
+对于本文采用的 Olympus 25$\times$/1.05 NA 物镜，由式~(\ref{eq:Dbfp}) 得:
+
 \begin{equation}
   D_{\mathrm{BFP}}\approx 2\times1.05\times7.2\,\mathrm{mm}\approx 15.12\,\mathrm{mm}
   \label{eq:Dbfp_olympus}
 \end{equation}
 
-为充分发挥物镜的标称数值孔径，激发光束在 BFP 处通常应尽量实现充满或适度过填充。若入射激光在 BFP 处的束径为 $D_{\mathrm{laser}}$，并满足欠填充条件 $D_{\mathrm{laser}}<D_{\mathrm{BFP}}$，则有效激发数值孔径可近似写为
+为充分发挥物镜的标称数值孔径，激发光束在 BFP 处通常应尽量实现充满或适度过填充。若入射激光在 BFP 处的束径为 $D_{\mathrm{laser}}$，并满足欠填充条件 $D_{\mathrm{laser}}<D_{\mathrm{BFP}}$，则有效激发数值孔径可近似写为:
 
 \begin{equation}
   \mathrm{NA}_{\mathrm{eff}}\approx \mathrm{NA}_{0}\frac{D_{\mathrm{laser}}}{D_{\mathrm{BFP}}}
@@ -488,7 +496,8 @@ Zeiss   & 165 & 20 / 23   & M27 \\ \hline
 
 \subsection{扫描角度与物方视场的映射关系}\label{2.4.3}
 
-在振镜扫描系统中，扫描镜的机械偏转角记为 $\alpha$，则反射后光束的偏转角近似为
+在振镜扫描系统中，扫描镜的机械偏转角记为 $\alpha$，则反射后光束的偏转角近似为:
+
 \begin{equation}
   \beta \approx 2\alpha
   \label{eq:beta_alpha}
@@ -496,11 +505,12 @@ Zeiss   & 165 & 20 / 23   & M27 \\ \hline
 
 在小角度近轴近似下，若扫描透镜(scan lens)的等效焦距为 $f_s$，则扫描角可映射为中间像面上的线性扫描范围
 \begin{equation}
-  \mathrm{FOV}_{\mathrm{image}}\approx f_s\beta \approx 2f_s\alpha.
+  \mathrm{FOV}_{\mathrm{image}}\approx f_s\beta \approx 2f_s\alpha
   \label{eq:fov_image}
 \end{equation}
 
-考虑系统有效放大倍率 $M_{\mathrm{eff}}$ 后，物方视场可写为
+考虑系统有效放大倍率 $M_{\mathrm{eff}}$ 后，物方视场可写为:
+
 \begin{equation}
   \mathrm{FOV}_{\mathrm{object}}
   =\frac{\mathrm{FOV}_{\mathrm{image}}}{M_{\mathrm{eff}}}
@@ -511,7 +521,8 @@ Zeiss   & 165 & 20 / 23   & M27 \\ \hline
 
 由式~(\ref{eq:fov_object}) 可见，物方扫描视场不仅受振镜扫描角与扫描透镜焦距影响，也与物镜等效焦距和管透镜焦距共同相关。对于本文所采用的 Olympus 25$\times$ 物镜，由于 $f_0$ 约为 7.2\,mm，因此在其他参数固定时，物方视场与扫描透镜焦距 $f_s$ 和扫描角 $\beta$ 成正比。
 
-除扫描角映射外，显微系统还受到物镜视场数(Field Number, FN 或 OFN)的限制。若以物镜标称放大倍率 $M$ 表示，则其可支持的最大物方视场直径通常可近似写为
+除扫描角映射外，显微系统还受到物镜视场数(Field Number, FN 或 OFN)的限制。若以物镜标称放大倍率 $M$ 表示，则其可支持的最大物方视场直径通常可近似写为:
+
 \begin{equation}
   \mathrm{FOV}_{\mathrm{support}}\approx \frac{\mathrm{FN}}{M}
   \label{eq:fov_support}
