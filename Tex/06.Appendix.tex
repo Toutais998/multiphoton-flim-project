@@ -1,22 +1,11 @@
 \thispagestyle{appendixheader}
-\stepcounter{app}
-\setcounter{app_fig}{1}
-\setcounter{app_tab}{1}
-\setcounter{equation}{0}
-\renewcommand\theequation{附\arabic{app}-\arabic{equation}}
-\renewcommand\chaptername{附录}
-\renewcommand\chaptername{Appendix}
-\renewcommand\thechapter{附录\zhnum{app}}
-
-\setcounter{chapter}{0}
-\setcounter{section}{0}
+\renewcommand\thechapter{附录\zhnum{chapter}}
+\renewcommand\theequation{\thechapter-\arabic{equation}}
 
 %========================================
 % 附录一：自研物镜补充分析
 %========================================
 \chapter{自研物镜补充分析}\label{chap:app1}
-\setcounter{app_fig}{1}
-\setcounter{app_tab}{1}
 
 \begin{table}[htbp]
     \centering
@@ -69,11 +58,6 @@
 图~\ref{fig_obj_psf_lsa} 进一步给出了自研空气物镜的 FFT PSF 截面图与轴向像差曲线。FFT PSF 截面能够直观反映焦点附近能量集中程度及像斑对称性，而轴向像差曲线则用于评估不同孔径区域光线在像方的会聚一致性。两者结合表明，该自研物镜在当前设计参数下能够维持较好的轴向成像一致性，并为正文中关于其大视场成像潜力的讨论提供补充依据。
 
 
-
-\stepcounter{app}
-\setcounter{app_fig}{1}
-\setcounter{app_tab}{1}
-\setcounter{equation}{0}
 
 \chapter{超短脉冲压缩与表征补充分析}
 \section{自相干仪测量原理与预实验条件}
@@ -136,14 +120,14 @@
 由自相关曲线直接测得的半高全宽(Full Width at Half Maximum, FWHM)，记为 $\tau_{ac}$，并不等于脉冲真实宽度 $\tau_{pulse}$。要由自相关宽度反推出实际脉冲宽度，还需要结合脉冲的包络形状引入相应的去相关因子。对于干涉自相关曲线的上包络，其换算关系通常为：
 
 若脉冲包络近似为高斯型(Gaussian)，则有
-\[
+\begin{equation}
 \tau_{pulse}=\tau_{ac}/1.7
-\]
+\end{equation}
 
 若脉冲包络近似为双曲正割平方型($\mathrm{sech}^2$)，则有
-\[
+\begin{equation}
 \tau_{pulse}=\tau_{ac}/1.9
-\]
+\end{equation}
 
 因此，在利用自相关法计算脉冲宽度时，必须首先对脉冲形状作出合理假设，否则将给最终结果带来系统性误差。
 
@@ -171,7 +155,7 @@
         \caption{}
         \label{fig42.6}
     \end{subfigure}
-    \bicaption{自相干干涉信号特征及啁啾脉冲分析示意图。(a) 强度自相关仪中的干涉信号峰值背景比；(b) 严重啁啾飞秒脉冲的干涉自相关曲线\cite{thorlabs}}{Characteristic interferometric autocorrelation signals and analysis of chirped pulses. (a) Peak-to-background ratio of the interference signal in an intensity autocorrelator; (b) interferometric autocorrelation trace of a strongly chirped femtosecond pulse\cite{thorlabs}}
+    \bicaption{自相干干涉信号特征及啁啾脉冲分析示意图。(a) 强度自相关仪中的干涉信号峰值背景比；(b) 严重啁啾飞秒脉冲的干涉自相关曲线(图片源自: Thorlabs Inc.)\cite{thorlabs}}{Characteristic interferometric autocorrelation signals and analysis of chirped pulses. (a) Peak-to-background ratio of the interference signal in an intensity autocorrelator; (b) interferometric autocorrelation trace of a strongly chirped femtosecond pulse (Image sourced from Thorlabs Inc.)\cite{thorlabs}}
     \label{fig42.56}
 \end{figure}
 
@@ -215,10 +199,6 @@
 
 
 
-
-\stepcounter{app}
-\setcounter{app_fig}{1}
-\setcounter{app_tab}{1}
 
 \chapter{双椭圆级联等光程扫描结构的理论设计与仿真}\label{chap:app_double_ellipse}
 
@@ -450,10 +430,6 @@
 
 
 
-\stepcounter{app}
-\setcounter{app_fig}{1}
-\setcounter{app_tab}{1}
-
 \chapter{荧光微球标准样品处理流程补充说明}\label{app:beads_protocol}
 
 本研究中用于荧光寿命成像系统验证的标准样品为荧光微球(江苏智川科技)。所用样品包括标称粒径为 200~nm 和 10~\textmu m 的两类规格，并具有Ex/Em = 450/470~nm、488/515~nm 和 532/560~nm 三种荧光参数。其中，200~nm 荧光微球主要用于系统PSF相关校正与成像链路检查，10~\textmu m 荧光微球主要用于反射式参考成像、TCSPC 数据采集以及逐像素寿命拟合验证。
@@ -478,6 +454,6 @@
 
 实验中激发功率和探测器增益不预先固定为单一数值，而是根据样品亮度、局部计数率以及图像动态范围进行联合调节，以在避免局部饱和和明显光子堆积的前提下获得稳定的寿命拟合结果。
 
-共聚焦实验中使用 Mitutoyo M Plan Apo SL 20$\times$ 长工作距离无限远校正物镜(378-810-3，Mitutoyo)。该物镜的标称数值孔径为 0.28，工作距离为 30.5~mm，适用波段为 435--655~nm\cite{Mitutoyo20xSpec}。多光子实验中使用 Cousa 20$\times$ NA 0.5空气物镜(Pacific Optica)。相关文献表明，该物镜针对多光子成像进行了优化，具有 20~mm 超长工作距离、0.50 数值孔径以及大视场成像能力，适用于活体多光子成像等需要较大机械工作空间的实验场景\cite{Yu2024Cousa}。
+共聚焦实验中使用 Mitutoyo M Plan Apo SL 20$\times$ 长工作距离无限远校正物镜(378-810-3，Mitutoyo)。该物镜的标称数值孔径为 0.28，工作距离为 30.5~mm，适用波段为 435--655~nm\cite{Mitutoyo20xSpec}。多光子实验中使用 Cousa 20$\times$ NA 0.5空气物镜(Pacific Optica)。相关文献表明，该物镜针对多光子成像进行了优化，具有 20~mm 超长工作距离、0.50 数值孔径以及大视场成像能力，适用于活体多光子成像等需要较大机械工作空间的实验场景\cite{RN1262}。
 
 需要指出的是，本附录所述样品处理流程主要服务于标准荧光微球样品的成像重复性、均匀性和测量稳定性控制，其目的在于为第~\ref{Chap:5}章的 FLIM 系统验证提供统一且可重复的样品前处理条件，而非建立针对特定生物样品的化学标记或制备方案。

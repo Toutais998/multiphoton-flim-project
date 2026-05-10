@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{47}
 \providecommand{\biband}{和}
 \providecommand{\bibetal}{等}
 \providecommand{\natexlab}[1]{#1}
@@ -12,31 +12,6 @@
   \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
   \let\eprint\href
 \fi
-
-\bibitem[Schermelleh {\bibetal}(2019)Schermelleh, Ferrand, Huser, Eggeling, Sauer, Biehlmaier, and Drummen]{RN2362}
-Schermelleh~L, Ferrand~A, Huser~T, et~al.
-\newblock Super-resolution microscopy demystified [J/OL].
-\newblock Nat Cell Biol, 2019, 21\penalty0 (1): 72-84.
-\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/30602772}.
-\newblock DOI: \doi{10.1038/s41556-018-0251-8}.
-
-\bibitem[Borlinghaus(2017)]{Leica}
-Borlinghaus~R.
-\newblock Pinhole effect in confocal microscopes [J].
-\newblock Science Lab—The Knowledge Portal of Leica Microsystems CMS GmbH, Mannheim, Germany, 2017, 26.
-
-\bibitem[Datta {\bibetal}(2020)Datta, Heaster, Sharick, Gillette, and Skala]{RN568}
-Datta~R, Heaster~T~M, Sharick~J~T, et~al.
-\newblock Fluorescence lifetime imaging microscopy: fundamentals and advances in instrumentation, analysis, and applications [J/OL].
-\newblock J Biomed Opt, 2020, 25\penalty0 (7): 1-43.
-\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/32406215}.
-\newblock DOI: \doi{10.1117/1.JBO.25.7.071203}.
-
-\bibitem[{Thorlabs, Inc.}(2026)]{thorlabs}
-{Thorlabs, Inc.}
-\newblock Autocorrelator for femtosecond lasers [EB/OL].
-\newblock 2026.
-\newblock \url{https://www.thorlabs.com/autocorrelator-for-femtosecond-lasers?tabName=Overview}.
 
 \bibitem[Wang(2026)]{RN2016}
 Wang~R.
@@ -72,13 +47,6 @@ Wrenn~J, F.~R., Good~M~L, Handler~P.
 \newblock Science, 1951, 113\penalty0 (2940): 525-7.
 \newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/14828392}.
 \newblock DOI: \doi{10.1126/science.113.2940.525}.
-
-\bibitem[Anger(1964)]{RN2009}
-Anger~H~O.
-\newblock Scintillation camera with multichannel collimators [J/OL].
-\newblock Journal of Nuclear Medicine, 1964, 5\penalty0 (7): 515-531.
-\newblock \url{<Go to ISI>://WOS:A1964WM65600003}.
-\newblock DOI: \doi{10.1001/jama.1965.03080190014004.JAMA.}
 
 \bibitem[Sakmann {\bibetal}(1984)Sakmann and Neher]{RN2011}
 Sakmann~B, Neher~E.
@@ -143,12 +111,6 @@ Jonkman~J, Brown~C~M, Wright~G~D, et~al.
 \newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/32235926}.
 \newblock DOI: \doi{10.1038/s41596-020-0313-9}.
 
-\bibitem[Alvarez {\bibetal}(2019)Alvarez, Widzgowski, Ossato, van~den Broek, Jalink, Kuschel, Roberti, and Hecht]{RN1938}
-Alvarez~L~A~J, Widzgowski~B, Ossato~G, et~al.
-\newblock Sp8 falcon: a novel concept in fluorescence lifetime imaging enabling video-rate confocal flim [J/OL].
-\newblock Nature Methods, 2019, 16\penalty0 (10).
-\newblock \url{<Go to ISI>://WOS:000488225900001}.
-
 \bibitem[Denk {\bibetal}(1990)Denk, Strickler, and Webb]{RN2024}
 Denk~W, Strickler~J~H, Webb~W~W.
 \newblock Two-photon laser scanning fluorescence microscopy [J/OL].
@@ -162,6 +124,13 @@ Denk~W, Svoboda~K.
 \newblock Neuron, 1997, 18\penalty0 (3): 351-7.
 \newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/9115730}.
 \newblock DOI: \doi{10.1016/s0896-6273(00)81237-4}.
+
+\bibitem[Schermelleh {\bibetal}(2019)Schermelleh, Ferrand, Huser, Eggeling, Sauer, Biehlmaier, and Drummen]{RN2362}
+Schermelleh~L, Ferrand~A, Huser~T, et~al.
+\newblock Super-resolution microscopy demystified [J/OL].
+\newblock Nat Cell Biol, 2019, 21\penalty0 (1): 72-84.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/30602772}.
+\newblock DOI: \doi{10.1038/s41556-018-0251-8}.
 
 \bibitem[Besseling {\bibetal}(2015)Besseling, Jose, and Van~Blaaderen]{RN2022}
 Besseling~T~H, Jose~J, Van~Blaaderen~A.
@@ -188,8 +157,7 @@ Zipfel~W~R, Williams~R~M, Webb~W~W.
 Radmacher~N, Nevskyi~O, Gallea~J~I, et~al.
 \newblock Doubling the resolution of fluorescence-lifetime single-molecule localization microscopy with image scanning microscopy [J/OL].
 \newblock Nature Photonics, 2024, 18\penalty0 (10): 1059-1066.
-\newblock \url{<Go to ISI>://WOS:001283321800003}.
-\newblock DOI: \doi{10.1038/s41566-024-01481-4}.
+\newblock \url{https://doi.org/10.1038/s41566-024-01481-4}.
 
 \bibitem[Helmchen {\bibetal}(2005)Helmchen and Denk]{RN372}
 Helmchen~F, Denk~W.
@@ -197,6 +165,19 @@ Helmchen~F, Denk~W.
 \newblock Nat Methods, 2005, 2\penalty0 (12): 932-40.
 \newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/16299478}.
 \newblock DOI: \doi{10.1038/nmeth818}.
+
+\bibitem[Yu {\bibetal}(2024)Yu, Yu, Adsit, Chang, Barchini, Moberly, Benisty, Kim, Young, Heng, Farinella, Leikvoll, Pavan, Vistein, Nanfito, Hildebrand, Otero-Coronel, Vaziri, Goldberg, Ricci, Fitzpatrick, Cardin, Higley, Smith, Kara, Nielsen, Smith, and Smith]{RN1262}
+Yu~C~H, Yu~Y, Adsit~L~M, et~al.
+\newblock The cousa objective: a long-working distance air objective for multiphoton imaging in vivo [J/OL].
+\newblock Nat Methods, 2024, 21\penalty0 (1): 132-141.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/38129618}.
+\newblock DOI: \doi{10.1038/s41592-023-02098-1}.
+
+\bibitem[Borlinghaus(2017)]{Leica}
+Borlinghaus~R~T.
+\newblock Pinhole effect in confocal microscopes [EB/OL].
+\newblock Leica Microsystems, 2017.
+\newblock \url{https://www.leica-microsystems.com/science-lab/life-science/pinhole-effect-in-confocal-microscopes/}.
 
 \bibitem[Lakowicz(1999)]{RN563}
 Lakowicz~J~R.
@@ -215,8 +196,7 @@ Suhling~K, French~P~M, Phillips~D.
 Torrado~B, Pannunzio~B, Malacrida~L, et~al.
 \newblock Fluorescence lifetime imaging microscopy [J/OL].
 \newblock Nature Reviews Methods Primers, 2024, 4\penalty0 (1).
-\newblock \url{<Go to ISI>://WOS:001352376500001}.
-\newblock DOI: \doi{ARTN}, \doi{80}, \doi{10.1038/s43586-024-00358-8}.
+\newblock \url{https://doi.org/10.1038/s43586-024-00358-8}.
 
 \bibitem[Zhou {\bibetal}(2023)Zhou, Bec, Ehrlich, Garcia, and Marcu]{RN2118}
 Zhou~X, Bec~J, Ehrlich~K, et~al.
@@ -232,6 +212,13 @@ Requejo-Isidro~J, McGinty~J, Munro~I, et~al.
 \newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/15524370}.
 \newblock DOI: \doi{10.1364/ol.29.002249}.
 
+\bibitem[Datta {\bibetal}(2020)Datta, Heaster, Sharick, Gillette, and Skala]{RN568}
+Datta~R, Heaster~T~M, Sharick~J~T, et~al.
+\newblock Fluorescence lifetime imaging microscopy: fundamentals and advances in instrumentation, analysis, and applications [J/OL].
+\newblock J Biomed Opt, 2020, 25\penalty0 (7): 1-43.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/32406215}.
+\newblock DOI: \doi{10.1117/1.JBO.25.7.071203}.
+
 \bibitem[Poudel {\bibetal}(2020)Poudel, Mela, and Kaminski]{RN2075}
 Poudel~C, Mela~I, Kaminski~C~F.
 \newblock High-throughput, multi-parametric, and correlative fluorescence lifetime imaging [J/OL].
@@ -241,16 +228,15 @@ Poudel~C, Mela~I, Kaminski~C~F.
 
 \bibitem[Becker(2015)]{RN1656}
 Becker~W.
-\newblock Advanced time-correlated single photon counting applications: volume 111 [M/OL].
-\newblock Springer, 2015.
-\newblock DOI: \doi{10.1007/978-3-319-14929-5}.
+\newblock Springer series in chemical physics: Introduction to multi-dimensional tcspc [M/OL].
+\newblock 2015: 1-63.
+\newblock DOI: \doi{10.1007/978-3-319-14929-5_1}.
 
 \bibitem[Becker {\bibetal}(2004)Becker, Bergmann, Biscotti, and Rueck]{RN897}
 Becker~W, Bergmann~A, Biscotti~G~L, et~al.
-\newblock Advanced time-correlated single photon counting techniques for spectroscopy and imaging in biomedical systems [C/OL]//\allowbreak
-Commercial and Biomedical Applications of Ultrafast Lasers IV: volume 5340.
-\newblock SPIE, 2004: 104-112.
-\newblock DOI: \doi{10.1117/12.529143}.
+\newblock Advanced time-correlated single photon counting techniques for spectroscopy and imaging in biomedical systems [J/OL].
+\newblock 2004, 5340: 104-112.
+\newblock \url{https://doi.org/10.1117/12.529143}.
 
 \bibitem[Wahl {\bibetal}(2008)Wahl, Rahn, Rohlicke, Kell, Nettels, Hillger, Schuler, and Erdmann]{RN2050}
 Wahl~M, Rahn~H~J, Rohlicke~T, et~al.
@@ -312,8 +298,7 @@ Pliss~A, Levchenko~S~M, Liu~L, et~al.
 Cole~F, Zähringer~J, Bohlen~J, et~al.
 \newblock Super-resolved fret and co-tracking in pminflux [J/OL].
 \newblock Nature Photonics, 2024, 18\penalty0 (5): 478-484.
-\newblock \url{<Go to ISI>://WOS:001160826800002}.
-\newblock DOI: \doi{10.1038/s41566-024-01384-4}.
+\newblock \url{https://doi.org/10.1038/s41566-024-01384-4}.
 
 \bibitem[Kim {\bibetal}(2015)Kim, Kim, and Lee]{RN1809}
 Kim~J~Y, Kim~C, Lee~N~K.
@@ -336,16 +321,16 @@ Zhao~Q, Young~I~T, de~Jong~J~G.
 \newblock \url{https://www.ncbi.nlm.nih.gov/pubmed/21895319}.
 \newblock DOI: \doi{10.1117/1.3608997}.
 
+\bibitem[{Thorlabs, Inc.}(2026)]{thorlabs}
+{Thorlabs, Inc.}
+\newblock Autocorrelator for femtosecond lasers [EB/OL].
+\newblock 2026.
+\newblock \url{https://www.thorlabs.com/autocorrelator-for-femtosecond-lasers?tabName=Overview}.
+
 \bibitem[{Mitutoyo Corporation}()]{Mitutoyo20xSpec}
 {Mitutoyo Corporation}.
 \newblock Microscope units and objectives (uv, nuv, visible \& nir region): Catalog No. E14020(4)2 [M/OL].
 \newblock Mitutoyo Corporation.
 \newblock \url{https://www.mitutoyo.com/webfoo/wp-content/uploads/E14020.pdf}.
-
-\bibitem[Yu {\bibetal}(2024)Yu, Yu, Adsit, Chang, Barchini, Moberly, Benisty, Kim, Young, Heng, Farinella, Leikvoll, Pavan, Vistein, Nanfito, Hildebrand, Otero-Coronel, Vaziri, Goldberg, Ricci, Fitzpatrick, Cardin, Higley, Smith, Kara, Nielsen, Smith, and Smith]{Yu2024Cousa}
-Yu~C~H, Yu~Y, Adsit~L~M, et~al.
-\newblock The cousa objective: a long-working distance air objective for multiphoton imaging in vivo [J/OL].
-\newblock Nature Methods, 2024, 21: 132-141.
-\newblock DOI: \doi{10.1038/s41592-023-02098-1}.
 
 \end{thebibliography}
