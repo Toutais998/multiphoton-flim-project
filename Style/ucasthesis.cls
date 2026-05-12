@@ -74,6 +74,17 @@
     %\clist_show:N\l_tmpb_clist% show the content of comma list
     \clist_use:Nn \l_tmpb_clist { \\ & }
 }
+\newcommand{\ucaslntotableft}[2][1pt]{% left-aligned variant of \ucaslntotab
+    \seq_set_split:NnV \l_tmpa_seq {\\} {#2}
+    \clist_set_from_seq:NN \l_tmpa_clist \l_tmpa_seq
+    \clist_clear:N \l_tmpb_clist
+    \clist_map_inline:Nn \l_tmpa_clist
+      {%
+        \clist_put_right:Nn \l_tmpb_clist
+          { \ulenhance[#1]{\ulextendleft{##1}} }
+      }
+    \clist_use:Nn \l_tmpb_clist { \\ & }
+}
 \ExplSyntaxOff
 %---------------------------------------------------------------------------%
 %->> Load class configuration
@@ -145,6 +156,8 @@
 \newcommand{\ulhshift}{-4em}% horizontal shift on underline
 \newcommand{\ulextend}[2][350pt]{% extend underline length
     \hbox to #1{\hfill\hspace*{\ulhshift}#2\hfill}}
+\newcommand{\ulextendleft}[2][350pt]{% left-aligned extend underline (no offset, starts at column edge)
+    \hbox to #1{#2\hfill}}
 %---------------------------------------------------------------------------%
 %->> Titlepage
 %---------------------------------------------------------------------------%
@@ -171,6 +184,8 @@
 \renewcommand{\author}[1]{\def\ucas@value@ch@author{#1}}
 \def\ucas@value@ch@advisor{}
 \newcommand{\advisor}[1]{\long\def\ucas@value@ch@advisor{#1}}
+\def\ucas@value@ch@industryadvisor{}
+\newcommand{\industryadvisor}[1]{\long\def\ucas@value@ch@industryadvisor{#1}}
 \def\ucas@value@ch@advisors{}
 \newcommand{\advisors}[1]{\long\def\ucas@value@ch@advisors{#1}}
 \def\ucas@value@ch@degree{}
@@ -210,6 +225,8 @@
 \newcommand{\AUTHOR}[1]{\def\ucas@value@en@author{#1}}
 \def\ucas@value@en@advisor{}
 \newcommand{\ADVISOR}[1]{\def\ucas@value@en@advisor{#1}}
+\def\ucas@value@en@industryadvisor{}
+\newcommand{\INDUSTRYADVISOR}[1]{\def\ucas@value@en@industryadvisor{#1}}
 \def\ucas@value@en@degree{}
 \newcommand{\DEGREE}[1]{\edef\ucas@value@en@degree{\zap@space#1 \@empty}}% expand and remove space
 \def\ucas@value@en@degreetype{}
@@ -297,7 +314,10 @@
         \def\arraystretch{1.3}
         \begin{tabular}{lc}
             \ucas@label@ch@author & \ulenhance[1.2pt]{\ulextend{\ucas@value@ch@author}}\\
-            \ucas@label@ch@advisor & \ucaslntotab[1.2pt]{\ucas@value@ch@advisor}\\
+            \ucas@label@ch@advisor & \ucaslntotableft[1.2pt]{\ucas@value@ch@advisor}\\
+            \ucasifstrbk{\ucas@value@ch@industryadvisor}{}{%
+                \ucas@label@ch@industryadvisor & \ulenhance[1.2pt]{\ulextendleft{\ucas@value@ch@industryadvisor}}\\%
+            }
             \ucas@label@ch@degree & \ulenhance[1.2pt]{\ulextend{\ucas@value@ch@degreetype\ucas@value@ch@degree}}\\
             \ucas@label@ch@major & \ulenhance[1.2pt]{\ulextend{\ucas@value@ch@major}}\\
             \ucas@label@ch@institute & \ucaslntotab[1.2pt]{\ucas@value@ch@institute}\\
@@ -418,6 +438,12 @@
         {\ucas@value@en@author}
 
         {\ucas@value@en@advisor}
+
+        \ucasifstrbk{\ucas@value@en@industryadvisor}{}{%
+            \vspace*{0.8ex}
+
+            {\ucas@value@en@industryadvisor}%
+        }
 
         \vspace*{\stretch{3}}
 

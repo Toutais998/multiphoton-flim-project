@@ -14,7 +14,9 @@
 %-
 %-> 中文摘要
 %-
+\pagestyle{frontmatterstyle}% 中文摘要页眉
 \intobmk\chapter*{摘\quad 要}% 显示在书签但不显示在目录
+\thispagestyle{frontmatterstyle}% 覆盖 \chapter* 的默认 plain 页眉
 \setcounter{page}{1}% 开始页码
 \pagenumbering{Roman}% 页码符号
 
@@ -30,7 +32,9 @@
 %-
 %-> 英文摘要
 %-
+\pagestyle{enfrontmatterstyle}% 英文摘要页眉：偶数页显示 Abstract，奇数页显示英文标题
 \intobmk\chapter*{Abstract}% 显示在书签但不显示在目录
+\thispagestyle{enfrontmatterstyle}% 覆盖 \chapter* 的默认 plain 页眉
 Multiphoton fluorescence lifetime imaging combines the deep-tissue penetration and intrinsic three-dimensional optical sectioning capability of multiphoton microscopy with the quantitative advantages of fluorescence lifetime imaging (FLIM), which is largely insensitive to probe concentration, excitation power, and tissue attenuation. It is therefore valuable for in vivo neural imaging and complex microenvironment analysis. To meet the demands of in vivo biological imaging for high spatial resolution, high sensitivity, and high temporal precision, this thesis investigates the theoretical analysis, system construction, ultrafast pulse control, synchronized acquisition, and lifetime fitting of confocal and multiphoton FLIM systems.
 
 Starting from the fundamental issues of point-scanning microscopy, including pixel dwell time, sampling resolution, point spread function, and effective excitation volume, this thesis analyzes the relationships among scanning field of view, objective parameters, and imaging performance, providing the theoretical basis for subsequent system design. On this basis, a modular laser-scanning confocal FLIM system was constructed. A magnetic quick-release multi-color optical architecture was proposed to enable highly repeatable and rapid switching of multi-band excitation and detection channels, and workflows for instrument response function calibration, synchronization-delay calibration, and data acquisition were established.
@@ -41,7 +45,6 @@ Overall, this thesis completes a systematic study spanning point-scanning theory
 
 \KEYWORDS{Multiphoton Microscopy, Multi-Color Confocal Microscopy, Fluorescence Lifetime Imaging, Time-Correlated Single-Photon Counting, Dispersion Compensation}% 英文关键词
 
-\pagestyle{enfrontmatterstyle}%
 \cleardoublepage\pagestyle{frontmatterstyle}%
 
 %---------------------------------------------------------------------------%

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -oh '\\\\\\\\label{[^}]*}' 05.Chap*.tex 06.Appendix*.tex)",
+      "Bash(grep -oh '\\\\\\\\ref{[^}]*}' 05.Chap*.tex 06.Appendix*.tex)",
+      "Bash(cd \"e:/Code/VScode/Data and Project/Latex/16.国科大Latex官方版/Tex\" && grep -oh 'label{[^}]*}' 05.Chap*.tex 06.Appendix*.tex | sed 's/label{//' | sed 's/}//' | grep -iE '^\\(fig|tab|Fig|Table\\)' | sort -u > /tmp/figtab_labels.txt && cat /tmp/figtab_labels.txt)",
+      "Read(//tmp/**)"
+    ]
+  }
+}

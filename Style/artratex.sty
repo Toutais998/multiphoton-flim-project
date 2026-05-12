@@ -719,7 +719,7 @@
     }
     \fancypagestyle{enfrontmatterstyle}{% style for frontmatter
     \fancyhf{}% clear fields
-    \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\leftmark}{\ucas@value@en@title}}% structure elements
+    \fancyhead[C]{\footnotesize \ifnumodd{\value{page}}{\ucas@value@en@title}{\leftmark}}% structure elements
     \fancyfoot[C]{\footnotesize \thepage}% page number
     \renewcommand{\headrulewidth}{0.8pt}% header rule
     \renewcommand{\footrulewidth}{0pt}% footer rule
